@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1512165056 source:c:\users\gunnar\desktop\forritun\verk2.2\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"Superhero.h"
+
+1512165056 c:\users\gunnar\desktop\forritun\verk2.2\include\superhero.h
+	<iostream>
+	<fstream>
+	<string>
+
+1512164887 source:c:\users\gunnar\desktop\forritun\verk2.2\src\superhero.cpp
+	"Superhero.h"
+
