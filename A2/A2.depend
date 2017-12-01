@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1512171326 source:c:\users\klevi\onedrive\desktop\turtles-pizzaria\a2\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+
