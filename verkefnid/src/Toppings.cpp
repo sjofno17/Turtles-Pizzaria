@@ -2,10 +2,14 @@
 
 Toppings::Toppings()
 {
-    //ctor
+    char name = ' ';
+    double price = 0.0;
 }
 
-Toppings::~Toppings()
+/*Toppings::Toppings(char *name, double price)
 {
-    //dtor
+    strcpy(this->name = name);
+    this->price = price;
 }
+
+*/

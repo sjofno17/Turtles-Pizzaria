@@ -1,13 +1,33 @@
 # depslib dependency file v1.0
-1512403336 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\main.cpp
+1512406205 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\main.cpp
 	<iostream>
 	"MainMenu.h"
+	"Administrator.h"
+	"Toppings.h"
 
-1512403059 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\include\mainmenu.h
+1512405594 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\include\mainmenu.h
 	<fstream>
 	<string>
 	<iostream>
 
-1512403150 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\src\mainmenu.cpp
+1512407056 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\src\mainmenu.cpp
 	"MainMenu.h"
+
+1512410214 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\src\administrator.cpp
+	"Administrator.h"
+
+1512410183 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\include\administrator.h
+	<fstream>
+	<string>
+	<iostream>
+	"Toppings.h"
+
+1512406855 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\include\toppings.h
+	<fstream>
+	<string>
+	<iostream>
+	<string.h>
+
+1512410226 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\src\toppings.cpp
+	"Toppings.h"
 
