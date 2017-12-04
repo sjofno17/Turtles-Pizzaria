@@ -1,9 +1,11 @@
 #include <iostream>
-
+#include "MainMenu.h"
+#include "Administrator.h"
 using namespace std;
+
 
 int main()
 {
-    cout << "Hello world!" << endl;
+
     return 0;
 }

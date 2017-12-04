@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1512403336 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\main.cpp
+	<iostream>
+	"MainMenu.h"
+
+1512403059 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\include\mainmenu.h
+	<fstream>
+	<string>
+	<iostream>
+
+1512403150 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\src\mainmenu.cpp
+	"MainMenu.h"
+
