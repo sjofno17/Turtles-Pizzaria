@@ -1,8 +1,4 @@
 #include "salary_model.h"
-#include <string>
-
-using namespace std;
-
 
 Salary_Model::Salary_Model(string name, string ssn, double salary, int month, int year)
 {
@@ -34,4 +30,12 @@ int Salary_Model::get_year()
 {
     return this->year;
 }
+
+ostream& operator << (ostream& out, const Salary_Model& model)
+{
+    out << model.name << ", " << model.ssn << ", " << model.salary << ", " << model.month << ", " << model.year;
+    return out;
+}
+
+
 

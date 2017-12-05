@@ -42,15 +42,15 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="include/UI/salary_ui.h" />
+		<Unit filename="include/UI/employee_ui.h" />
 		<Unit filename="include/model/salary_model.h" />
-		<Unit filename="include/repositories/salary_repositories.h" />
-		<Unit filename="include/service/salary_service.h" />
+		<Unit filename="include/repositories/employee_repository.h" />
+		<Unit filename="include/service/employee_service.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="src/UI/salary_ui.cpp" />
+		<Unit filename="src/UI/employee_ui.cpp" />
 		<Unit filename="src/model/salary_model.cpp" />
-		<Unit filename="src/repositories/salary_repositories.cpp" />
-		<Unit filename="src/service/salary_service.cpp" />
+		<Unit filename="src/repositories/employee_repository.cpp" />
+		<Unit filename="src/service/employee_service.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

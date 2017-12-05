@@ -1,12 +1,11 @@
-#ifndef SALARY_UI_H
-#define SALARY_UI_H
+#ifndef EMPLOYEE_UI_H
+#define EMPLOYEE_UI_H
 
 
-class Salary_UI
+class Employee_UI
 {
     public:
-        Salary_UI();
-        virtual ~Salary_UI();
+        Employee_UI();
 
 
     private:
