@@ -1,11 +1,7 @@
-#include "salary_ui.h"
+#include "employee_ui.h"
 
-Salary_UI::Salary_UI()
+Employee_UI::Employee_UI()
 {
     //ctor
 }
 
-Salary_UI::~Salary_UI()
-{
-    //dtor
-}

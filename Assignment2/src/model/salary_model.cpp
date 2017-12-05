@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 #include <iostream>
 #include <string>
 #include <fstream>
 
 using namespace std;
+=======
+>>>>>>> c040d1276f6ecf8b87874cd673c66673a5e184e7
 #include "salary_model.h"
 
 Salary_Model::Salary_Model(string name, string ssn, double salary, int month, int year)
@@ -51,6 +54,17 @@ void Salary_Model::set_year(int year){
 
     out << salary.Name << " / " << salary.ssn << " / " << salary.month << " / " << salary.year << endl;
 
+<<<<<<< HEAD
     return out;
 
 }
+=======
+ostream& operator << (ostream& out, const Salary_Model& model)
+{
+    out << model.name << ", " << model.ssn << ", " << model.salary << ", " << model.month << ", " << model.year;
+    return out;
+}
+
+
+
+>>>>>>> c040d1276f6ecf8b87874cd673c66673a5e184e7
