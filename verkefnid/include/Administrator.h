@@ -1,8 +1,7 @@
 #ifndef ADMINISTRATOR_H
 #define ADMINISTRATOR_H
-#include <fstream>
-#include <string>
 #include <iostream>
+#include <stddef.h>
 #include "Toppings.h"
 using namespace std;
 
@@ -12,7 +11,10 @@ class Administrator
         Administrator();
         Administrator(int number_of_toppings);
         void start_admin();
-        void add_topping(Toppings toppings);
+        void add_topping(Toppings topping);
+
+        friend ostream& operator << (ostream& out, const Administrator& admin);
+        friend istream& operator >> (istream& in, Administrator& admin);
 
         ~Administrator();
 

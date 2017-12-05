@@ -5,28 +5,26 @@
 	"Administrator.h"
 	"Toppings.h"
 
-1512405594 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\include\mainmenu.h
+1512411802 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\include\mainmenu.h
 	<fstream>
 	<string>
 	<iostream>
 
-1512407056 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\src\mainmenu.cpp
+1512411470 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\src\mainmenu.cpp
 	"MainMenu.h"
 
-1512410214 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\src\administrator.cpp
+1512434451 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\src\administrator.cpp
 	"Administrator.h"
 
-1512410183 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\include\administrator.h
-	<fstream>
-	<string>
+1512434518 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\include\administrator.h
 	<iostream>
+	<stddef.h>
 	"Toppings.h"
 
-1512406855 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\include\toppings.h
-	<fstream>
-	<string>
+1512434163 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\include\toppings.h
 	<iostream>
 	<string.h>
+	"Administrator.h"
 
 1512410226 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\src\toppings.cpp
 	"Toppings.h"

@@ -53,7 +53,7 @@ void MainMenu::start_menu()
     }
 }
 
-ostream& operator << (ostream& out, MainMenu& main)
+ostream& operator << (ostream& out, const MainMenu& main)
 {
     out << "Turtles-Pizzaria" << endl;
     out << "'A/a': if you are an administrator." << endl;

@@ -12,7 +12,7 @@ class MainMenu
         MainMenu(char main_menu);
         void start_menu();
 
-        friend ostream& operator << (ostream& out, MainMenu& main);
+        friend ostream& operator << (ostream& out, const MainMenu& main);
         friend istream& operator >> (istream& in, MainMenu& main);
 
     private:

@@ -36,10 +36,12 @@
 		</Compiler>
 		<Unit filename="include/Administrator.h" />
 		<Unit filename="include/MainMenu.h" />
+		<Unit filename="include/ToppingRepository.h" />
 		<Unit filename="include/Toppings.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Administrator.cpp" />
 		<Unit filename="src/MainMenu.cpp" />
+		<Unit filename="src/ToppingRepository.cpp" />
 		<Unit filename="src/Toppings.cpp" />
 		<Extensions>
 			<code_completion />

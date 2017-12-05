@@ -3,7 +3,7 @@
 Administrator::Administrator()
 {
     topping_count = 0;
-    topping = 0;
+    topping = NULL;
     current_topping_num = 0;
 }
 
@@ -14,12 +14,35 @@ Administrator::Administrator(int number_of_toppings)
     current_topping_num = 0;
 }
 
+void Administrator::start_admin()
+{
+
+}
+
 void Administrator::add_topping(Toppings toppings)
 {
-    for (int i = current_topping_num; i < topping_count; i++)
+    if (current_topping_num < topping_count)
     {
         topping[current_topping_num] = toppings;
+        current_topping_num ++;
     }
+}
+
+ostream& operator << (ostream& out, const Administrator& admin)
+{
+    out << "ostream admin" << endl;
+
+    for (int i = 0; i < admin.topping_count; i++)
+    {
+        out << admin.topping[i] << endl;
+    }
+
+    return out;
+}
+
+istream& operator >> (istream& in, Administrator& admin)
+{
+
 }
 
 ///in this function the admin can choose a size of pizza to price the topping of.
@@ -52,10 +75,10 @@ void Administrator::add_topping(Toppings toppings)
         }
     }
 }*/
-
+///destructor of topping dynamic array
 Administrator::~Administrator()
 {
-    if (topping_count != 0)
+    if (topping_count != NULL)
     {
         delete[] topping;
     }
