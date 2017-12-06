@@ -1,11 +1,19 @@
-#include "salary_repositories.h"
+#include "SalaryRepository.h"
 
-salary_repositories::salary_repositories()
+SalaryRepository::SalaryRepository()
 {
     //ctor
 }
 
-salary_repositories::~salary_repositories()
+SalaryRepository::~SalaryRepository()
 {
     //dtor
+}
+void SalaryRepository::addEmployee(const EmployeeSalary& salary){
+    ofstream fout;
+    fout.open("employeesalary.txt", ios::app);
+    if (fout.is_open()){
+        fout << salary;
+        fout.close();
+    }
 }

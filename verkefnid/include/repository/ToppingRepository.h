@@ -1,14 +1,20 @@
 #ifndef TOPPINGREPOSITORY_H
 #define TOPPINGREPOSITORY_H
-#include <fstream>
+
 #include <iostream>
-#include "Toppings.h"
+#include <string.h>
+#include <vector>
+#include <fstream>
+#include "ToppingService.h"
 using namespace std;
 
 class ToppingRepository
 {
     public:
         ToppingRepository();
+
+        void storeToppings(const ToppingService& topping);
+        void retrieveToppings();
 
     private:
 };

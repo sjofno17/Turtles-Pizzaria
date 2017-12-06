@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1512133039 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefni 1 b1\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"SuperHero.h"
+
+1512130304 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefni 1 b1\include\superhero.h
+	<iostream>
+	<fstream>
+	<string>
+
+1512133039 source:c:\users\sjöfn\documents\verklegt námskeið 1\verkefni 1 b1\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"SuperHero.h"
+
+1512130304 c:\users\sjöfn\documents\verklegt námskeið 1\verkefni 1 b1\include\superhero.h
+	<iostream>
+	<fstream>
+	<string>
+
+1512132046 source:c:\users\sjöfn\documents\verklegt námskeið 1\verkefni 1 b1\src\superhero.cpp
+	"SuperHero.h"
+	<iostream>
+	<string>
+
+1512132046 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefni 1 b1\src\superhero.cpp
+	"SuperHero.h"
+	<iostream>
+	<string>
+

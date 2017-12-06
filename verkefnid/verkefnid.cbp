@@ -14,6 +14,9 @@
 				<Compiler>
 					<Add option="-g" />
 					<Add directory="include" />
+					<Add directory="include/UI" />
+					<Add directory="include/repository" />
+					<Add directory="include/service" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -24,6 +27,9 @@
 				<Compiler>
 					<Add option="-O2" />
 					<Add directory="include" />
+					<Add directory="include/UI" />
+					<Add directory="include/repository" />
+					<Add directory="include/service" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -34,15 +40,19 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="include/Administrator.h" />
-		<Unit filename="include/MainMenu.h" />
-		<Unit filename="include/ToppingRepository.h" />
-		<Unit filename="include/Toppings.h" />
+		<Unit filename="include/UI/AdminUI.h" />
+		<Unit filename="include/UI/MainMenuUI.h" />
+		<Unit filename="include/repository/PizzaRepository.h" />
+		<Unit filename="include/repository/ToppingRepository.h" />
+		<Unit filename="include/service/PizzaService.h" />
+		<Unit filename="include/service/ToppingService.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="src/Administrator.cpp" />
-		<Unit filename="src/MainMenu.cpp" />
-		<Unit filename="src/ToppingRepository.cpp" />
-		<Unit filename="src/Toppings.cpp" />
+		<Unit filename="src/UI/AdminUI.cpp" />
+		<Unit filename="src/UI/MainMenuUI.cpp" />
+		<Unit filename="src/repository/PizzaRepository.cpp" />
+		<Unit filename="src/repository/ToppingRepository.cpp" />
+		<Unit filename="src/service/PizzaService.cpp" />
+		<Unit filename="src/service/ToppingService.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

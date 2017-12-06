@@ -16,8 +16,12 @@ public:
     double get_salary();
     int get_month();
     int get_year();
+    void set_Name(string name);
+    void set_ssn(string ssn);
+    void set_month(int month);
+    void set_year(int year);
 
-    friend ostream& operator << (ostream& out, const Salary_Model& model);
+    friend ostream& operator <<(ostream& out, const Salary_Model& salary);
 
 private:
     string name;

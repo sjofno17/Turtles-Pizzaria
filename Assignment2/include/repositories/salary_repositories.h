@@ -8,6 +8,7 @@ class salary_repositories
         salary_repositories();
         virtual ~salary_repositories();
 
+    protected:
 
     private:
 };
