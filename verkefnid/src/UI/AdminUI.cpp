@@ -7,6 +7,9 @@ AdminUI::AdminUI()
 
 void AdminUI::startAdmin()
 {
+    vector<ToppingService> toppings;
+    char name[30];
+    double price;
     char adminInput;
     cout << "Would you like to price a whole pizza or just toppings?" << endl;
     cout << "*******************************************************" << endl;
@@ -18,14 +21,14 @@ void AdminUI::startAdmin()
 
     if (adminInput == '1')
     {
-        ToppingService toppingserv;
-        toppingserv.fill_topping();
-    }
-
-    else if (adminInput == '2')
-    {
         //PizzaSerivce pizzaserv;
     }
+
+    /*else if (adminInput == '2')
+    {
+        ToppingService toppingserv;
+        toppingserv.fillTopping( toppings, name, price);
+    }*/
 
     else if (adminInput == 'q' || adminInput == 'Q')
     {

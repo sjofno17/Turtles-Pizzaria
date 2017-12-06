@@ -2,28 +2,26 @@
 
 ToppingRepository::ToppingRepository()
 {
-    //ctor
+
 }
 
-void ToppingRepository::storeToppings(const Toppings& topping){
-
+void ToppingRepository::storeToppings(const ToppingService& topping)
+{
     ofstream fout;
     fout.open("toppings.txt");
 
-    fout >> toppings;
+    fout << topping;
 
     fout.close();
 }
 
-void ToppingRepository::retrieveToppings(const Toppings& topping){
-
+void ToppingRepository::retrieveToppings()
+{
     ifstream fin;
     fin.open("toppings.txt");
 
-    Toppings topping;
+    ToppingService topping;
     fin >> topping;
 
     fin.close();
-
-    return topping'
 }

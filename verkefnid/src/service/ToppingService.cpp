@@ -2,9 +2,7 @@
 
 ToppingService::ToppingService()
 {
-    vector<ToppingService> toppings;
-    char name = ' ';
-    double price = 0.0;
+
 }
 
 ToppingService::ToppingService(vector<ToppingService>& toppings, char *name, double price)
@@ -14,16 +12,18 @@ ToppingService::ToppingService(vector<ToppingService>& toppings, char *name, dou
     this->price = price;
 }
 
-void ToppingService::fill_topping(vector<ToppingService>& toppings, char *name, double price)
+/*void ToppingService::fillTopping(vector<ToppingService>& toppings, char *name, double price)
 {
+    ToppingService toppingfill;
     cout << "How many toppings would you like to price?";
-    cin >> toppings;
+    cin >> toppingfill;
 
-    for (int i = 0; i < toppings.size(); i++)
+    for (int i = 0; i < toppingfill; i++)
     {
-        cin >>
+        cout << "Name and price: ";
+        cin >> name >> price;
     }
-}
+*/
 
 istream& operator >> (istream& in, ToppingService& toppings)
 {
@@ -35,6 +35,7 @@ istream& operator >> (istream& in, ToppingService& toppings)
 
 ostream& operator << (ostream& out, const ToppingService& toppings)
 {
+    out << "Your chosen toppings: " << endl;
     out << toppings.name << " " << toppings.price;
 
     return out;

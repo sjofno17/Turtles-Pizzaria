@@ -15,10 +15,10 @@ MainMenuUI::MainMenuUI(char main_menu)
 void MainMenuUI::start_menu()
 {
     char selection = '\0';
-
+    cin >> selection;
     while (selection != 'q' && selection != 'Q')
     {
-        cin >> selection;
+
 
         if (selection == '1')
         {

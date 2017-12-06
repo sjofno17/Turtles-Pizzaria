@@ -10,7 +10,7 @@ class ToppingService
     public:
         ToppingService();
         ToppingService(vector<ToppingService>& toppings,char *name, double price);
-        void fill_topping(vector<ToppingService>& toppings, char *name, double price);
+        void fillTopping(vector<ToppingService>& toppings, char *name, double price);
 
         friend ostream& operator << (ostream& out, const ToppingService& toppings);
         friend istream& operator >> (istream& in, ToppingService& toppings);
