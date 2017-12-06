@@ -32,11 +32,12 @@ void Employee_UI::validate_user_input(char input)
 {
     if(input == '1')
     {
-        employe_service.add_model(create_model());
+        //Add a salary record.
+        employe_service.add_info(create_info());
     }
     else if(input == '2')
     {
-        cout << "Get all salary records for a given SSN. " << endl;
+        //Get all salary records for a given SSN.
     }
     else if(input == '3')
     {
@@ -52,7 +53,7 @@ void Employee_UI::validate_user_input(char input)
     }
 }
 
-Salary_Model Employee_UI::create_model()
+Employee_info Employee_UI::create_info()
 {
     string name;
     cout << "Enter employee name: ";
@@ -70,8 +71,8 @@ Salary_Model Employee_UI::create_model()
     cout << "Enter year: ";
     cin >> year;
 
-    Salary_Model model(name, ssn, salary, month, year);
-    return model;
+    Employee_info info(name, ssn, salary, month, year);
+    return info;
 
 }
 

@@ -5,14 +5,14 @@ Employee_Repository::Employee_Repository()
     //ctor
 }
 
-void Employee_Repository::add_model(const Salary_Model& model)
+void Employee_Repository::add_info(const Employee_info& info)
 {
     ofstream fout;
     fout.open("salary.txt", ios::app);
 
     if(fout.is_open())
     {
-        fout << model;
+        fout << info;
         fout.close();
     }
     else
