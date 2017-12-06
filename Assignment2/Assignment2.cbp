@@ -2,34 +2,36 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="verkefnid" />
+		<Option title="Assignment2" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/verkefnid" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/Assignment2" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
-					<Add directory="include" />
+					<Add directory="include/model" />
+					<Add directory="include/salaryUI" />
 					<Add directory="include/UI" />
-					<Add directory="include/repository" />
 					<Add directory="include/service" />
+					<Add directory="include/repositories" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/verkefnid" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/Assignment2" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
-					<Add directory="include" />
+					<Add directory="include/model" />
+					<Add directory="include/salaryUI" />
 					<Add directory="include/UI" />
-					<Add directory="include/repository" />
 					<Add directory="include/service" />
+					<Add directory="include/repositories" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -40,23 +42,20 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="include/UI/AdminUI.h" />
-		<Unit filename="include/UI/MainMenuUI.h" />
-		<Unit filename="include/repository/PizzaRepository.h" />
-		<Unit filename="include/repository/ToppingRepository.h" />
-		<Unit filename="include/service/PizzaService.h" />
-		<Unit filename="include/service/ToppingService.h" />
+		<Unit filename="include/UI/employee_ui.h" />
+		<Unit filename="include/model/salary_model.h" />
+		<Unit filename="include/repositories/employee_repository.h" />
+		<Unit filename="include/service/employee_service.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="src/UI/AdminUI.cpp" />
-		<Unit filename="src/UI/MainMenuUI.cpp" />
-		<Unit filename="src/repository/PizzaRepository.cpp" />
-		<Unit filename="src/repository/ToppingRepository.cpp" />
-		<Unit filename="src/service/PizzaService.cpp" />
-		<Unit filename="src/service/ToppingService.cpp" />
+		<Unit filename="src/UI/employee_ui.cpp" />
+		<Unit filename="src/model/salary_model.cpp" />
+		<Unit filename="src/repositories/employee_repository.cpp" />
+		<Unit filename="src/service/employee_service.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
 			<debugger />
+			<lib_finder disable_auto="1" />
 		</Extensions>
 	</Project>
 </CodeBlocks_project_file>
