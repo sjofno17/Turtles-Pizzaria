@@ -1,12 +1,15 @@
 #include <iostream>
-#include "MainMenu.h"
-#include "Administrator.h"
-#include "Toppings.h"
+#include "MainMenuUI.h"
+#include "AdminUI.h"
+#include "ToppingService.h"
 using namespace std;
 
 
 int main()
 {
+    MainMenuUI main;
+
+    cout << main;
 
     return 0;
 }
