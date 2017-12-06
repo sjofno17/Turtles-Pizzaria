@@ -1,11 +1,9 @@
-<<<<<<< HEAD
 #include <iostream>
 #include <string>
 #include <fstream>
 
 using namespace std;
-=======
->>>>>>> c040d1276f6ecf8b87874cd673c66673a5e184e7
+
 #include "salary_model.h"
 
 Salary_Model::Salary_Model(string name, string ssn, double salary, int month, int year)
@@ -38,11 +36,11 @@ int Salary_Model::get_year()
 {
     return this->year;
 }
-void Salary_Model::set_eName(string name){
-    Name = name;
+void Salary_Model::set_Name(string name){
+    name = name;
 }
 void Salary_Model::set_ssn(string ssn){
-    kennitala = kennitala;
+    ssn = ssn;
 }
 void Salary_Model::set_month(int month){
     month = month;
@@ -50,21 +48,16 @@ void Salary_Model::set_month(int month){
 void Salary_Model::set_year(int year){
     year = year;
 }
-    ostream& operator <<(ostream& out, const Salary_Model& salary){
+ostream& operator <<(ostream& out, const Salary_Model& salary){
 
-    out << salary.Name << " / " << salary.ssn << " / " << salary.month << " / " << salary.year << endl;
+    out << salary.name << " / " << salary.ssn << " / " << salary.month << " / " << salary.year << endl;
 
-<<<<<<< HEAD
+
     return out;
 
 }
-=======
-ostream& operator << (ostream& out, const Salary_Model& model)
-{
-    out << model.name << ", " << model.ssn << ", " << model.salary << ", " << model.month << ", " << model.year;
-    return out;
-}
 
 
 
->>>>>>> c040d1276f6ecf8b87874cd673c66673a5e184e7
+
+
