@@ -12,7 +12,7 @@ class ToppingsRepository
 
         void add_info(const toppingsService& topping);
 
-    private:
+    //private:
 };
 
 #endif // TOPPINGSREPOSITORY_H
