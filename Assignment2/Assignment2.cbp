@@ -43,12 +43,12 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/UI/employee_ui.h" />
-		<Unit filename="include/model/salary_model.h" />
+		<Unit filename="include/model/employee_info.h" />
 		<Unit filename="include/repositories/employee_repository.h" />
 		<Unit filename="include/service/employee_service.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/UI/employee_ui.cpp" />
-		<Unit filename="src/model/salary_model.cpp" />
+		<Unit filename="src/model/employee_info.cpp" />
 		<Unit filename="src/repositories/employee_repository.cpp" />
 		<Unit filename="src/service/employee_service.cpp" />
 		<Extensions>

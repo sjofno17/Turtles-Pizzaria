@@ -1,6 +1,9 @@
 #ifndef TOPPINGREPOSITORY_H
 #define TOPPINGREPOSITORY_H
+
 #include <iostream>
+#include <string.h>
+#include <vector>
 #include <fstream>
 #include "ToppingService.h"
 using namespace std;

@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1512572332 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\main.cpp
+1512579098 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\main.cpp
 	<iostream>
 	"MainMenuUI.h"
 	"AdminUI.h"
@@ -29,10 +29,11 @@
 1512410226 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\src\toppings.cpp
 	"Toppings.h"
 
-1512561859 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\include\ui\adminui.h
+1512578582 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\include\ui\adminui.h
 	<iostream>
 	<stddef.h>
 	"ToppingService.h"
+	"PizzaService.h"
 
 1512577656 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\include\ui\mainmenuui.h
 	<fstream>
@@ -40,34 +41,36 @@
 	<iostream>
 	"AdminUI.h"
 
-1512575275 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\include\service\toppingservice.h
+1512578582 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\include\service\toppingservice.h
 	<iostream>
 	<string.h>
 	<vector>
 
-1512570452 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\src\repository\toppingrepository.cpp
+1512579624 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\src\repository\toppingrepository.cpp
 	"ToppingRepository.h"
 
-1512570452 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\include\repository\toppingrepository.h
+1512579624 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\include\repository\toppingrepository.h
 	<iostream>
+	<string.h>
+	<vector>
 	<fstream>
 	"ToppingService.h"
 
-1512561766 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\src\service\pizzaservice.cpp
+1512578582 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\src\service\pizzaservice.cpp
 	"PizzaService.h"
 
-1512561766 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\include\service\pizzaservice.h
+1512578582 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\include\service\pizzaservice.h
 	<iostream>
 	<string.h>
-	"AdminUI.h"
+	<vector>
 
-1512577348 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\src\service\toppingservice.cpp
+1512649775 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\src\service\toppingservice.cpp
 	"ToppingService.h"
 
-1512577368 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\src\ui\adminui.cpp
+1512649784 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\src\ui\adminui.cpp
 	"AdminUI.h"
 
-1512577624 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\src\ui\mainmenuui.cpp
+1512649792 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\src\ui\mainmenuui.cpp
 	"MainMenuUI.h"
 	"AdminUI.h"
 
@@ -75,4 +78,60 @@
 	"PizzaRepository.h"
 
 1512565074 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\include\repository\pizzarepository.h
+
+1512571278 source:c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\verkefnid\main.cpp
+	<iostream>
+	"MainMenuUI.h"
+	"AdminUI.h"
+	"ToppingService.h"
+
+1512571278 c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\verkefnid\include\ui\mainmenuui.h
+	<fstream>
+	<string>
+	<iostream>
+	"AdminUI.h"
+
+1512575495 c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\verkefnid\include\ui\adminui.h
+	<iostream>
+	<stddef.h>
+	"ToppingService.h"
+	"PizzaService.h"
+
+1512572248 c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\verkefnid\include\service\toppingservice.h
+	<iostream>
+	<string.h>
+	<vector>
+
+1512571278 source:c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\verkefnid\src\repository\pizzarepository.cpp
+	"PizzaRepository.h"
+
+1512571278 c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\verkefnid\include\repository\pizzarepository.h
+
+1512571658 source:c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\verkefnid\src\repository\toppingrepository.cpp
+	"ToppingRepository.h"
+
+1512571625 c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\verkefnid\include\repository\toppingrepository.h
+	<iostream>
+	<string.h>
+	<vector>
+	<fstream>
+	"ToppingService.h"
+
+1512575375 source:c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\verkefnid\src\service\pizzaservice.cpp
+	"PizzaService.h"
+
+1512575414 c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\verkefnid\include\service\pizzaservice.h
+	<iostream>
+	<string.h>
+	<vector>
+
+1512571679 source:c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\verkefnid\src\service\toppingservice.cpp
+	"ToppingService.h"
+
+1512571804 source:c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\verkefnid\src\ui\adminui.cpp
+	"AdminUI.h"
+
+1512571278 source:c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\verkefnid\src\ui\mainmenuui.cpp
+	"MainMenuUI.h"
+	"AdminUI.h"
 

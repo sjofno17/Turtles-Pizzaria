@@ -1,10 +1,10 @@
 #include "ToppingRepository.h"
 
+
 ToppingRepository::ToppingRepository()
 {
 
 }
-
 void ToppingRepository::storeToppings(const ToppingService& topping)
 {
     ofstream fout;
@@ -15,8 +15,8 @@ void ToppingRepository::storeToppings(const ToppingService& topping)
     fout.close();
 }
 
-void ToppingRepository::retrieveToppings()
-{
+void ToppingRepository::retrieveToppings(){
+
     ifstream fin;
     fin.open("toppings.txt");
 
