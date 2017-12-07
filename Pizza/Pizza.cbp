@@ -17,6 +17,7 @@
 					<Add directory="include/service" />
 					<Add directory="include/model" />
 					<Add directory="include/models" />
+					<Add directory="include/repository" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -30,6 +31,7 @@
 					<Add directory="include/service" />
 					<Add directory="include/model" />
 					<Add directory="include/models" />
+					<Add directory="include/repository" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -41,7 +43,9 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/models/toppingmodel.h" />
+		<Unit filename="include/repository/ToppingsRepository.h" />
 		<Unit filename="include/service/AdministratorService.h" />
+		<Unit filename="include/service/toppingsService.h" />
 		<Unit filename="include/ui/AdministratorUI.h" />
 		<Unit filename="include/ui/BakerUI.h" />
 		<Unit filename="include/ui/EmployeeUI.h" />
@@ -49,7 +53,9 @@
 		<Unit filename="include/ui/SalespersonUI.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/models/toppingmodel.cpp" />
+		<Unit filename="src/repository/ToppingsRepository.cpp" />
 		<Unit filename="src/service/AdministratorService.cpp" />
+		<Unit filename="src/service/toppingsService.cpp" />
 		<Unit filename="src/ui/AdministratorUI.cpp" />
 		<Unit filename="src/ui/BakerUI.cpp" />
 		<Unit filename="src/ui/EmployeeUI.cpp" />

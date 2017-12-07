@@ -19,10 +19,3 @@ double ToppingModel::get_price()
 {
     return this->price;
 }
-
-
-istream& operator >> (istream& in, ToppingModel& toppings)
-{
-    in >> toppings.name >> toppings.price;
-    return in;
-}

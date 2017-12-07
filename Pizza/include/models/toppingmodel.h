@@ -2,6 +2,9 @@
 #define TOPPINGMODEL_H
 #include <string>
 #include "AdministratorUI.h"
+#include <iostream>
+
+#include "toppingsService.h"
 
 using namespace std;
 
@@ -12,9 +15,6 @@ class ToppingModel
         ToppingModel(string name, double price);
         string get_name();
         double get_price();
-        friend istream& operator >> (istream& in, ToppingModel& toppings);
-
-
 
 
     private:

@@ -37,14 +37,16 @@ void AdministratorUI::validate_input(char input)
         char input;
         cin >> input;
 
+        string name;
+        double price;
+
         for(int i = 0; i < input; i++)
         {
-            ToppingModel t;
             cout << "Name of topping: ";
-            cin >> t.get_name();
+            cin >> name;
             cout << endl;
             cout << "Price: ";
-            cin >> t.get_price();
+            cin >> price;
         }
     }
     else if(input == '2')
@@ -73,11 +75,4 @@ void AdministratorUI::validate_input(char input)
     {
         cout << "Invalid input please try again. " << endl;
     }
-
-
-}
-ostream& operator << (ostream& out, const AdministratorUI admin)
-{
-    out << admin.name << ", " << admin.price << endl;
-    return out;
 }

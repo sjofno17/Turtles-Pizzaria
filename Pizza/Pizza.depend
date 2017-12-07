@@ -56,10 +56,14 @@
 	"EmployeeUI.h"
 	<stdlib.h>
 
-1512658189 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\include\ui\administratorui.h
+1512668522 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\include\ui\administratorui.h
 	<stdlib.h>
-	"MainMenuUI.h"
 	<iostream>
+	"MainMenuUI.h"
+	"AdministratorInfo.h"
+	"ToppingModel.h"
+	"toppingsService.h"
+	"ToppingsRepository.h"
 
 1512650089 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\include\ui\salespersonui.h
 	<iostream>
@@ -73,12 +77,14 @@
 	<iostream>
 	<MainMenuUI.h>
 
-1512654275 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\src\service\administratorservice.cpp
+1512666257 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\src\service\administratorservice.cpp
 	"AdministratorService.h"
 
-1512654275 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\include\service\administratorservice.h
+1512666257 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\include\service\administratorservice.h
+	<vector>
+	<string>
 
-1512653534 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\src\ui\administratorui.cpp
+1512667756 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\src\ui\administratorui.cpp
 	"AdministratorUI.h"
 	<stdlib.h>
 
@@ -163,4 +169,28 @@
 
 1512665795 source:c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\pizza\src\models\toppingmodel.cpp
 	"toppingmodel.h"
+
+1512666257 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\include\model\administratorinfo.h
+	<string>
+	<vector>
+
+1512670256 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\include\models\toppingmodel.h
+	<string>
+	"AdministratorUI.h"
+	<iostream>
+	"toppingsService.h"
+
+1512667756 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\src\models\toppingmodel.cpp
+	"toppingmodel.h"
+
+1512668186 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\src\repository\toppingsrepository.cpp
+	"ToppingsRepository.h"
+
+1512672264 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\include\repository\toppingsrepository.h
+	<fstream>
+	"toppingmodel.h"
+
+1512672004 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\include\service\toppingsservice.h
+	"ToppingsRepository.h"
+	"AdministratorUI.h"
 
