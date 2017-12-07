@@ -1,9 +1,8 @@
 #ifndef ADMINISTRATORUI_H
 #define ADMINISTRATORUI_H
-
+#include <stdlib.h>
 #include "MainMenuUI.h"
 #include <iostream>
-
 using namespace std;
 
 class AdministratorUI

@@ -15,6 +15,7 @@
 					<Add option="-g" />
 					<Add directory="include/ui" />
 					<Add directory="include/service" />
+					<Add directory="include/model" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -26,6 +27,7 @@
 					<Add option="-O2" />
 					<Add directory="include/ui" />
 					<Add directory="include/service" />
+					<Add directory="include/model" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -36,6 +38,7 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/model/AdministratorInfo.h" />
 		<Unit filename="include/service/AdministratorService.h" />
 		<Unit filename="include/ui/AdministratorUI.h" />
 		<Unit filename="include/ui/BakerUI.h" />
@@ -43,6 +46,7 @@
 		<Unit filename="include/ui/MainMenuUI.h" />
 		<Unit filename="include/ui/SalespersonUI.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/model/AdministratorInfo.cpp" />
 		<Unit filename="src/service/AdministratorService.cpp" />
 		<Unit filename="src/ui/AdministratorUI.cpp" />
 		<Unit filename="src/ui/BakerUI.cpp" />

@@ -1,11 +1,11 @@
 #ifndef MAINMENUUI_H
 #define MAINMENUUI_H
-
 #include "AdministratorUI.h"
 #include "SalespersonUI.h"
 #include "BakerUI.h"
 #include "EmployeeUI.h"
-
+#include <stdlib.h>
+using namespace std;
 
 class MainMenuUI
 {
