@@ -5,7 +5,3 @@ AdministratorService::AdministratorService()
     //ctor
 }
 
-AdministratorService::~AdministratorService()
-{
-    //dtor
-}

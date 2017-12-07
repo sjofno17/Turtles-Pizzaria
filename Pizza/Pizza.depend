@@ -97,3 +97,70 @@
 1512657815 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\src\ui\mainmenuui.cpp
 	"MainMenuUI.h"
 
+1512642576 source:c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\pizza\main.cpp
+	<iostream>
+	"MainMenuUI.h"
+
+1512658569 c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\pizza\include\ui\mainmenuui.h
+	"AdministratorUI.h"
+	"SalespersonUI.h"
+	"BakerUI.h"
+	"EmployeeUI.h"
+	<stdlib.h>
+
+1512665965 c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\pizza\include\ui\administratorui.h
+	<stdlib.h>
+	<iostream>
+	"MainMenuUI.h"
+	"AdministratorInfo.h"
+	"ToppingModel.h"
+
+1512647234 c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\pizza\include\ui\salespersonui.h
+	<iostream>
+	<MainMenuUI.h>
+
+1512647209 c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\pizza\include\ui\bakerui.h
+	<iostream>
+	<MainMenuUI.h>
+
+1512647221 c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\pizza\include\ui\employeeui.h
+	<iostream>
+	<MainMenuUI.h>
+
+1512647678 source:c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\pizza\src\ui\bakerui.cpp
+	"BakerUI.h"
+	<stdlib.h>
+
+1512648034 source:c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\pizza\src\ui\employeeui.cpp
+	"EmployeeUI.h"
+	<stdlib.h>
+
+1512647678 source:c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\pizza\src\ui\salespersonui.cpp
+	"SalespersonUI.h"
+	<stdlib.h>
+
+1512659986 source:c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\pizza\src\service\administratorservice.cpp
+	"AdministratorService.h"
+
+1512659986 c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\pizza\include\service\administratorservice.h
+	<vector>
+	<string>
+
+1512658115 source:c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\pizza\src\ui\administratorui.cpp
+	"AdministratorUI.h"
+	<stdlib.h>
+
+1512658569 source:c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\pizza\src\ui\mainmenuui.cpp
+	"MainMenuUI.h"
+
+1512661052 c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\pizza\include\model\administratorinfo.h
+	<string>
+	<vector>
+
+1512665954 c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\pizza\include\models\toppingmodel.h
+	<string>
+	"AdministratorUI.h"
+
+1512665795 source:c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\pizza\src\models\toppingmodel.cpp
+	"toppingmodel.h"
+

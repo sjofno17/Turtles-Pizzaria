@@ -1,14 +1,17 @@
 #ifndef ADMINISTRATORSERVICE_H
 #define ADMINISTRATORSERVICE_H
 
+#include<vector>
+#include<string>
+
+using namespace std;
+
 
 class AdministratorService
 {
     public:
         AdministratorService();
-        virtual ~AdministratorService();
-
-    protected:
+        void get_info();
 
     private:
 };
