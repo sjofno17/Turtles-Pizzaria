@@ -8,8 +8,13 @@ using namespace std;
 int main()
 {
     MainMenuUI main;
-
     cout << main;
+    main.start_menu();
+
+
+    AdminUI admin;
+    admin.startAdmin();
+    cin >> admin;
 
     return 0;
 }

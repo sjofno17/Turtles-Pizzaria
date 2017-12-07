@@ -73,13 +73,13 @@
 
 1512565074 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\verkefnid\include\repository\pizzarepository.h
 
-1512571278 source:c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\verkefnid\main.cpp
+1512580125 source:c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\verkefnid\main.cpp
 	<iostream>
 	"MainMenuUI.h"
 	"AdminUI.h"
 	"ToppingService.h"
 
-1512571278 c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\verkefnid\include\ui\mainmenuui.h
+1512577009 c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\verkefnid\include\ui\mainmenuui.h
 	<fstream>
 	<string>
 	<iostream>
@@ -111,7 +111,7 @@
 	<fstream>
 	"ToppingService.h"
 
-1512575375 source:c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\verkefnid\src\service\pizzaservice.cpp
+1512580367 source:c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\verkefnid\src\service\pizzaservice.cpp
 	"PizzaService.h"
 
 1512575414 c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\verkefnid\include\service\pizzaservice.h
@@ -122,10 +122,10 @@
 1512571679 source:c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\verkefnid\src\service\toppingservice.cpp
 	"ToppingService.h"
 
-1512571804 source:c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\verkefnid\src\ui\adminui.cpp
+1512574964 source:c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\verkefnid\src\ui\adminui.cpp
 	"AdminUI.h"
 
-1512571278 source:c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\verkefnid\src\ui\mainmenuui.cpp
+1512577585 source:c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\verkefnid\src\ui\mainmenuui.cpp
 	"MainMenuUI.h"
 	"AdminUI.h"
 

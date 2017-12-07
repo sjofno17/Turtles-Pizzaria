@@ -2,63 +2,59 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
-<<<<<<< HEAD
-	<File name="include\Toppings.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-=======
-	<File name="src\UI\AdminUI.cpp" open="1" top="1" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="main.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="785" topLine="0" />
+			<Cursor1 position="203" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="include\service\ToppingService.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\UI\MainMenuUI.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="372" topLine="0" />
+			<Cursor1 position="949" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\service\PizzaService.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="69" topLine="8" />
+		</Cursor>
+	</File>
+	<File name="include\service\PizzaService.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="36" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\UI\AdminUI.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="407" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\UI\AdminUI.cpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="625" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\service\ToppingService.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="346" topLine="9" />
+		</Cursor>
+	</File>
+	<File name="include\service\ToppingService.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="71" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\repository\ToppingRepository.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="388" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\repository\ToppingRepository.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="139" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="include\UI\MainMenuUI.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
->>>>>>> aaa60d91458bb0d8305a6e43d0e32b592e665e5e
 		<Cursor>
-			<Cursor1 position="124" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\service\ToppingService.cpp" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="505" topLine="0" />
-		</Cursor>
-	</File>
-<<<<<<< HEAD
-	<File name="src\MainMenu.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1079" topLine="39" />
-		</Cursor>
-	</File>
-	<File name="src\Toppings.cpp" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-=======
-	<File name="src\UI\MainMenuUI.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
->>>>>>> aaa60d91458bb0d8305a6e43d0e32b592e665e5e
-		<Cursor>
-			<Cursor1 position="23" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="include\UI\AdminUI.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="107" topLine="0" />
-		</Cursor>
-	</File>
-<<<<<<< HEAD
-	<File name="include\Administrator.h" open="1" top="1" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="279" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="include\MainMenu.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="98" topLine="0" />
-=======
-	<File name="main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="179" topLine="0" />
->>>>>>> aaa60d91458bb0d8305a6e43d0e32b592e665e5e
+			<Cursor1 position="267" topLine="0" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

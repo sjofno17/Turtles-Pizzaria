@@ -2,9 +2,7 @@
 
 PizzaService::PizzaService()
 {
-    vector<PizzaService> pizzas;
-    char name = ' ';
-    double price = 0.0;
+
 }
 
 PizzaService::PizzaService(vector<PizzaService>& pizzas, char *name, double price)
@@ -16,12 +14,13 @@ PizzaService::PizzaService(vector<PizzaService>& pizzas, char *name, double pric
 
 void PizzaService::menu_pizza(vector<PizzaService>& pizzas, char *name, double price)
 {
+    int num_pizzas;
     cout << "How many pizzas would you like to price?";
-    //cin >> pizzas;
+    cin >> num_pizzas;
 
-    for (int i = 0; i < pizzas.size(); i++)
+    for (int i = 0; i < num_pizzas; i++)
     {
-       // cin >>
+        cin >> num_pizzas;
     }
 }
 

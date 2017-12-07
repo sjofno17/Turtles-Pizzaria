@@ -1,10 +1,13 @@
 #include "MainMenuUI.h"
-#include "AdminUI.h"
+#include <stdlib.h>
 
+
+MainMenuUI::MainMenuUI()
+{
+
+}
 
 void MainMenuUI::main_menu()
-{
-    void MainMenuUI::main_menu()
 {
     while(true)
     {
@@ -24,7 +27,6 @@ void MainMenuUI::main_menu()
             validate_input(input);
     }
 }
-
 
 void MainMenuUI::validate_input(char input)
 {
