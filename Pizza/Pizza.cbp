@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Pizza" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Pizza" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include/ui" />
+					<Add directory="include/service" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Pizza" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include/ui" />
+					<Add directory="include/service" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/service/AdministratorService.h" />
+		<Unit filename="include/ui/AdministratorUI.h" />
+		<Unit filename="include/ui/BakerUI.h" />
+		<Unit filename="include/ui/EmployeeUI.h" />
+		<Unit filename="include/ui/MainMenuUI.h" />
+		<Unit filename="include/ui/SalespersonUI.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/service/AdministratorService.cpp" />
+		<Unit filename="src/ui/AdministratorUI.cpp" />
+		<Unit filename="src/ui/BakerUI.cpp" />
+		<Unit filename="src/ui/EmployeeUI.cpp" />
+		<Unit filename="src/ui/MainMenuUI.cpp" />
+		<Unit filename="src/ui/SalespersonUI.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

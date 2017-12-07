@@ -1,11 +1,13 @@
 #include <iostream>
 #include "MainMenuUI.h"
-#include "AdminUI.h"
-#include "ToppingService.h"
+
 using namespace std;
 
 int main()
 {
+
+    MainMenuUI ui;
+    ui.main_menu();
 
     return 0;
 }

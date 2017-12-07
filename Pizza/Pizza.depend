@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1512642576 source:c:\users\gunnar\desktop\forritun\pizza\main.cpp
+	<iostream>
+	"MainMenuUI.h"
+
+1512647627 source:c:\users\gunnar\desktop\forritun\pizza\src\ui\administratorui.cpp
+	"AdministratorUI.h"
+	<stdlib.h>
+
+1512647196 c:\users\gunnar\desktop\forritun\pizza\include\ui\administratorui.h
+	"MainMenuUI.h"
+	<iostream>
+
+1512647678 source:c:\users\gunnar\desktop\forritun\pizza\src\ui\bakerui.cpp
+	"BakerUI.h"
+	<stdlib.h>
+
+1512647209 c:\users\gunnar\desktop\forritun\pizza\include\ui\bakerui.h
+	<iostream>
+	<MainMenuUI.h>
+
+1512647678 source:c:\users\gunnar\desktop\forritun\pizza\src\ui\employeeui.cpp
+	"EmployeeUI.h"
+	<stdlib.h>
+
+1512647221 c:\users\gunnar\desktop\forritun\pizza\include\ui\employeeui.h
+	<iostream>
+	<MainMenuUI.h>
+
+1512646587 source:c:\users\gunnar\desktop\forritun\pizza\src\ui\mainmenuui.cpp
+	"MainMenuUI.h"
+	<stdlib.h>
+
+1512638245 c:\users\gunnar\desktop\forritun\pizza\include\ui\mainmenuui.h
+	"AdministratorUI.h"
+	"SalespersonUI.h"
+	"BakerUI.h"
+	"EmployeeUI.h"
+
+1512647234 c:\users\gunnar\desktop\forritun\pizza\include\ui\salespersonui.h
+	<iostream>
+	<MainMenuUI.h>
+
+1512647678 source:c:\users\gunnar\desktop\forritun\pizza\src\ui\salespersonui.cpp
+	"SalespersonUI.h"
+	<stdlib.h>
+
