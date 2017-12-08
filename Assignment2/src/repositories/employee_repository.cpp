@@ -3,10 +3,7 @@
 #include <iostream>
 #include <fstream>
 using namespace std;
-Employee_Repository::Employee_Repository()
-{
-    //ctor
-}
+
 
 void Employee_Repository::add_info(const Employee_info& info)
 {
@@ -23,3 +20,5 @@ void Employee_Repository::add_info(const Employee_info& info)
         //throw error
     }
 }
+
+

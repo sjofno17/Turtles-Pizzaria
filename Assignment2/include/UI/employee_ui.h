@@ -18,6 +18,7 @@ private:
     void highest_salary();
     void get_all_salary_for_ssn_year();
     void get_All_Records_Salary_For_Ssn();
+
 };
 
 #endif // EMPLOYEE_UI_H
