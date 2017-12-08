@@ -12,7 +12,7 @@ class PizzaUI
     protected:
 
     private:
-        Pizzaui
+
 };
 
 #endif // PIZZAUI_H

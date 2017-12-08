@@ -37,15 +37,25 @@ void Employee_UI::validate_user_input(char input)
     }
     else if(input == '2')
     {
+
         //Get all salary records for a given SSN.
+        long ssn;
+        cout << "Enter employee's ssn: ";
+        cin >> ssn;
+        Employee_info info();
+        cout << info;
+
     }
     else if(input == '3')
     {
+
         cout << "Get a total Salary for a given year and a given SSN. " << endl;
+        //getSalaryForYear();
     }
     else if(input == '4')
     {
         cout << "Get the name of the employee with the highest total salary for a given year. " << endl;
+       // highestSalaryForYear();
     }
     else
     {
