@@ -6,11 +6,10 @@ class PizzaMenuRepository
 {
     public:
         PizzaMenuRepository();
-        virtual ~PizzaMenuRepository();
-
-    protected:
+        void add_pizzamenu_info(const PizzaMenuModel& pizzamenu_info);
 
     private:
+        PizzaMenuRepository pizzamenu_info_repo;
 };
 
 #endif // PIZZAMENUREPOSITORY_H
