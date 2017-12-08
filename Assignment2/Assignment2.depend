@@ -61,7 +61,7 @@
 1512566205 source:c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\assignment2\src\service\employee_service.cpp
 	"employee_service.h"
 
-1512571061 source:c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\assignment2\src\ui\employee_ui.cpp
+1512569386 source:c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\assignment2\src\ui\employee_ui.cpp
 	"employee_ui.h"
 
 1512566205 c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\assignment2\include\repositories\employee_repository.h
@@ -73,7 +73,7 @@
 
 1512566205 D
 
-1512697122 c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\assignment2\include\model\employee_info.h
+1512566205 c:\users\gunnar\desktop\3viknaafangi\turtles-pizzaria\assignment2\include\model\employee_info.h
 	<string>
 	<iostream>
 
@@ -82,24 +82,24 @@
 
 1512566233 info.h"
 
-1512580165 source:c:\users\klevis\desktop\3weeksproject\turtles-pizzaria\assignment2\main.cpp
+1512515227 source:c:\users\klevis\desktop\3weeksproject\turtles-pizzaria\assignment2\main.cpp
 	"employee_ui.h"
 
-1512580191 c:\users\klevis\desktop\3weeksproject\turtles-pizzaria\assignment2\include\ui\employee_ui.h
-	"employee_info.h"
+1512515227 c:\users\klevis\desktop\3weeksproject\turtles-pizzaria\assignment2\include\ui\employee_ui.h
+	"salary_model.h"
 	"employee_service.h"
 
 1512517919 c:\users\klevis\desktop\3weeksproject\turtles-pizzaria\assignment2\include\model\salary_model.h
 	<string>
 	<iostream>
 
-1512580191 c:\users\klevis\desktop\3weeksproject\turtles-pizzaria\assignment2\include\service\employee_service.h
-	"employee_info.h"
+1512515227 c:\users\klevis\desktop\3weeksproject\turtles-pizzaria\assignment2\include\service\employee_service.h
+	"salary_model.h"
 	"employee_repository.h"
 
-1512685460 c:\users\klevis\desktop\3weeksproject\turtles-pizzaria\assignment2\include\repositories\employee_repository.h
-	"employee_info.h"
-	"employee_repository.h"
+1512515227 c:\users\klevis\desktop\3weeksproject\turtles-pizzaria\assignment2\include\repositories\employee_repository.h
+	"salary_model.h"
+	<fstream>
 
 1512518014 source:c:\users\klevis\desktop\3weeksproject\turtles-pizzaria\assignment2\src\model\salary_model.cpp
 	<iostream>
@@ -107,76 +107,45 @@
 	<fstream>
 	"salary_model.h"
 
-1512580191 source:c:\users\klevis\desktop\3weeksproject\turtles-pizzaria\assignment2\src\repositories\employee_repository.cpp
+1512515227 source:c:\users\klevis\desktop\3weeksproject\turtles-pizzaria\assignment2\src\repositories\employee_repository.cpp
 	"employee_repository.h"
 
-1512580191 source:c:\users\klevis\desktop\3weeksproject\turtles-pizzaria\assignment2\src\service\employee_service.cpp
+1512515227 source:c:\users\klevis\desktop\3weeksproject\turtles-pizzaria\assignment2\src\service\employee_service.cpp
 	"employee_service.h"
 
-1512580191 source:c:\users\klevis\desktop\3weeksproject\turtles-pizzaria\assignment2\src\ui\employee_ui.cpp
+1512515227 source:c:\users\klevis\desktop\3weeksproject\turtles-pizzaria\assignment2\src\ui\employee_ui.cpp
 	"employee_ui.h"
 
 1512515227 60d91458bb0d8305a6e43d0e32b592e665e5e
 
-1512567429 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\assignment2\main.cpp
+1512578655 source:c:\users\klevis\desktop\3weeksproject\turtles-pizzaria\turtles-pizzaria\turtles-pizzaria\assignment2\main.cpp
 	"employee_ui.h"
 
-1512578582 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\assignment2\include\ui\employee_ui.h
+1512764080 c:\users\klevis\desktop\3weeksproject\turtles-pizzaria\turtles-pizzaria\turtles-pizzaria\assignment2\include\ui\employee_ui.h
 	"employee_info.h"
 	"employee_service.h"
 
-1512578582 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\assignment2\include\model\employee_info.h
+1512578654 c:\users\klevis\desktop\3weeksproject\turtles-pizzaria\turtles-pizzaria\turtles-pizzaria\assignment2\include\model\employee_info.h
 	<string>
 	<iostream>
 
-1512578582 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\assignment2\include\service\employee_service.h
+1512578655 c:\users\klevis\desktop\3weeksproject\turtles-pizzaria\turtles-pizzaria\turtles-pizzaria\assignment2\include\service\employee_service.h
 	"employee_info.h"
 	"employee_repository.h"
 
-1512578582 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\assignment2\include\repositories\employee_repository.h
+1512578655 c:\users\klevis\desktop\3weeksproject\turtles-pizzaria\turtles-pizzaria\turtles-pizzaria\assignment2\include\repositories\employee_repository.h
 	"employee_info.h"
 	<fstream>
 
-1512578582 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\assignment2\src\model\employee_info.cpp
+1512578655 source:c:\users\klevis\desktop\3weeksproject\turtles-pizzaria\turtles-pizzaria\turtles-pizzaria\assignment2\src\model\employee_info.cpp
 	"employee_info.h"
 
-1512578582 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\assignment2\src\repositories\employee_repository.cpp
+1512578655 source:c:\users\klevis\desktop\3weeksproject\turtles-pizzaria\turtles-pizzaria\turtles-pizzaria\assignment2\src\repositories\employee_repository.cpp
 	"employee_repository.h"
 
-1512578582 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\assignment2\src\service\employee_service.cpp
+1512578655 source:c:\users\klevis\desktop\3weeksproject\turtles-pizzaria\turtles-pizzaria\turtles-pizzaria\assignment2\src\service\employee_service.cpp
 	"employee_service.h"
 
-1512578582 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\assignment2\src\ui\employee_ui.cpp
+1512578655 source:c:\users\klevis\desktop\3weeksproject\turtles-pizzaria\turtles-pizzaria\turtles-pizzaria\assignment2\src\ui\employee_ui.cpp
 	"employee_ui.h"
-
-1512685409 c:\users\klevis\desktop\3weeksproject\turtles-pizzaria\assignment2\include\model\employee_info.h
-	"employee_repository.h"
-	<string>
-	<iostream>
-
-1512580191 source:c:\users\klevis\desktop\3weeksproject\turtles-pizzaria\assignment2\src\model\employee_info.cpp
-	"employee_info.h"
-
-1512580165 source:c:\users\klevis\desktop\working on it\assignment2\main.cpp
-	"employee_ui.h"
-
-1512580191 c:\users\klevis\desktop\working on it\assignment2\include\ui\employee_ui.h
-	"employee_info.h"
-	"employee_service.h"
-
-1512685409 c:\users\klevis\desktop\working on it\assignment2\include\model\employee_info.h
-	"employee_repository.h"
-	<string>
-	<iostream>
-
-1512743705 c:\users\klevis\desktop\working on it\assignment2\include\repositories\employee_repository.h
-	"employee_info.h"
-	"employee_repository.h"
-
-1512580191 c:\users\klevis\desktop\working on it\assignment2\include\service\employee_service.h
-	"employee_info.h"
-	"employee_repository.h"
-
-1512580191 source:c:\users\klevis\desktop\working on it\assignment2\src\service\employee_service.cpp
-	"employee_service.h"
 

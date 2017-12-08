@@ -1,6 +1,4 @@
 #include "employee_repository.h"
-#include "employee_info.h"
-#include <fstream>
 
 Employee_Repository::Employee_Repository()
 {
@@ -9,7 +7,6 @@ Employee_Repository::Employee_Repository()
 
 void Employee_Repository::add_info(const Employee_info& info)
 {
-
     ofstream fout;
     fout.open("salary.txt", ios::app);
 

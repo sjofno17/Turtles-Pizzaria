@@ -1,7 +1,7 @@
 #ifndef EMPLOYEE_INFO_H
 #define EMPLOYEE_INFO_H
 
-#include "employee_repository.h"
+
 #include <string>
 #include <iostream>
 
@@ -17,9 +17,8 @@ public:
     double get_salary();
     int get_month();
     int get_year();
-    Employee_info info();
 
-    friend ostream& operator << (ostream& out, const Employee_info& info);
+    friend ostream& operator << (ostream& out, const Employee_info& model);
 
 private:
     string name;
