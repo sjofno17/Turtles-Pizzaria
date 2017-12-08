@@ -4,7 +4,6 @@
 #include "AdministratorUI.h"
 #include <iostream>
 
-
 using namespace std;
 
 class toppingmodel

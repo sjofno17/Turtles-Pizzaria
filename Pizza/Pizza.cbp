@@ -44,14 +44,17 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/models/OtherModels.h" />
 		<Unit filename="include/models/PizzaMenuModel.h" />
 		<Unit filename="include/models/ToppingsModel.h" />
 		<Unit filename="include/models/toppingmodel.h" />
 		<Unit filename="include/repositories/PizzaRepository.h" />
+		<Unit filename="include/repository/OtherRepository.h" />
 		<Unit filename="include/repository/PizzaMenuRepository.h" />
 		<Unit filename="include/repository/PizzaRepository.h" />
 		<Unit filename="include/repository/SizeCrustRepository.h" />
 		<Unit filename="include/repository/ToppingsRepository.h" />
+		<Unit filename="include/service/OtherService.h" />
 		<Unit filename="include/service/PizzaMenuService.h" />
 		<Unit filename="include/service/SizeCrustService.h" />
 		<Unit filename="include/service/toppingsService.h" />
@@ -62,13 +65,16 @@
 		<Unit filename="include/ui/PizzaUI.h" />
 		<Unit filename="include/ui/SalespersonUI.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/models/OtherModels.cpp" />
 		<Unit filename="src/models/PizzaMenuModel.cpp" />
 		<Unit filename="src/models/ToppingsModel.cpp" />
 		<Unit filename="src/models/toppingmodel.cpp" />
+		<Unit filename="src/repository/OtherRepository.cpp" />
 		<Unit filename="src/repository/PizzaMenuRepository.cpp" />
 		<Unit filename="src/repository/PizzaRepository.cpp" />
 		<Unit filename="src/repository/SizeCrustRepository.cpp" />
 		<Unit filename="src/repository/ToppingsRepository.cpp" />
+		<Unit filename="src/service/OtherService.cpp" />
 		<Unit filename="src/service/PizzaMenuService.cpp" />
 		<Unit filename="src/service/SizeCrustService.cpp" />
 		<Unit filename="src/service/toppingsService.cpp" />
