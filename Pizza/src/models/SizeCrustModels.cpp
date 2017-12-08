@@ -3,7 +3,7 @@
 SizeCrustModels::SizeCrustModels(string name, string pizza_size, int price)
 {
     this->name = name;
-    this->pizza_size;
+    this->pizza_size = pizza_size;
     this->price = price;
 }
 

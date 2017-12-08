@@ -89,7 +89,7 @@ SizeCrustModels AdministratorUI::create_size_crust()
 
     cout << "Enter name for pizza crust: ";
     cin >> name;
-    cout << "Enter a size for pizza " << name << ": ";
+    cout << "Is it a small, medium or large " << name << "? ";
     cin >> pizza_size;
     cout << "Enter a price for " << name << " " << pizza_size << ": ";
     cin >> price;

@@ -8,7 +8,7 @@ SizeCrustRepository::SizeCrustRepository()
 void SizeCrustRepository::add_size_crust(const SizeCrustModels& sizecrust_info)
 {
     ofstream fout;
-    fout.open("sizecrustIn", ios::app);
+    fout.open("sizecrustIn.txt", ios::app);
 
     if(fout.is_open())
     {

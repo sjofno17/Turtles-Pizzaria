@@ -18,7 +18,6 @@
 					<Add directory="include/model" />
 					<Add directory="include/models" />
 					<Add directory="include/repository" />
-					<Add directory="include/repositories" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -33,7 +32,6 @@
 					<Add directory="include/model" />
 					<Add directory="include/models" />
 					<Add directory="include/repository" />
-					<Add directory="include/repositories" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -44,15 +42,9 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-<<<<<<< HEAD
 		<Unit filename="include/models/SizeCrustModels.h" />
 		<Unit filename="include/models/ToppingsModel.h" />
 		<Unit filename="include/repository/SizeCrustRepository.h" />
-=======
-		<Unit filename="include/models/toppingmodel.h" />
-		<Unit filename="include/repositories/PizzaRepository.h" />
-		<Unit filename="include/repository/PizzaRepository.h" />
->>>>>>> 11d99d77794b8d906c39832166952581b7a3e3d0
 		<Unit filename="include/repository/ToppingsRepository.h" />
 		<Unit filename="include/service/SizeCrustService.h" />
 		<Unit filename="include/service/toppingsService.h" />
@@ -60,17 +52,11 @@
 		<Unit filename="include/ui/BakerUI.h" />
 		<Unit filename="include/ui/EmployeeUI.h" />
 		<Unit filename="include/ui/MainMenuUI.h" />
-		<Unit filename="include/ui/PizzaUI.h" />
 		<Unit filename="include/ui/SalespersonUI.h" />
 		<Unit filename="main.cpp" />
-<<<<<<< HEAD
 		<Unit filename="src/models/SizeCrustModels.cpp" />
 		<Unit filename="src/models/ToppingsModel.cpp" />
 		<Unit filename="src/repository/SizeCrustRepository.cpp" />
-=======
-		<Unit filename="src/models/toppingmodel.cpp" />
-		<Unit filename="src/repository/PizzaRepository.cpp" />
->>>>>>> 11d99d77794b8d906c39832166952581b7a3e3d0
 		<Unit filename="src/repository/ToppingsRepository.cpp" />
 		<Unit filename="src/service/SizeCrustService.cpp" />
 		<Unit filename="src/service/toppingsService.cpp" />
@@ -78,7 +64,6 @@
 		<Unit filename="src/ui/BakerUI.cpp" />
 		<Unit filename="src/ui/EmployeeUI.cpp" />
 		<Unit filename="src/ui/MainMenuUI.cpp" />
-		<Unit filename="src/ui/PizzaUI.cpp" />
 		<Unit filename="src/ui/SalespersonUI.cpp" />
 		<Extensions>
 			<code_completion />
