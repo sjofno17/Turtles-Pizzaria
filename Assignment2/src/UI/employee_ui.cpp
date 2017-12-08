@@ -1,4 +1,5 @@
 #include "employee_ui.h"
+#include "employee_info.h"
 
 Employee_UI::Employee_UI()
 {
@@ -38,14 +39,17 @@ void Employee_UI::validate_user_input(char input)
     else if(input == '2')
     {
         //Get all salary records for a given SSN.
+        get_All_Records_Salary_For_Ssn();
     }
     else if(input == '3')
     {
         cout << "Get a total Salary for a given year and a given SSN. " << endl;
+        get_all_salary_for_ssn_year();
     }
     else if(input == '4')
     {
         cout << "Get the name of the employee with the highest total salary for a given year. " << endl;
+        highest_salary();
     }
     else
     {
@@ -76,3 +80,24 @@ Employee_info Employee_UI::create_info()
 
 }
 
+void Employee_UI::get_All_Records_Salary_For_Ssn(){
+    long ssn;
+    cout << "Employee's social security number: ";
+    cin >>ssn;
+
+}
+
+void Employee_UI::get_all_salary_for_ssn_year(){
+    long ssn;
+    int year;
+    cout << "Employee's social security number: ";
+    cin >> ssn;
+    cout << "Year: ";
+    cin >> year;
+
+}
+
+void Employee_UI::highest_salary(){
+
+
+        }
