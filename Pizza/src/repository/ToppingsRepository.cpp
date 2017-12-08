@@ -5,16 +5,14 @@ ToppingsRepository::ToppingsRepository()
 
 }
 
-
-
-void ToppingsRepository::add_info(const toppingsService& topping)
+void ToppingsRepository::add_topping_info(const ToppingsModel& topping_info)
 {
     ofstream fout;
     fout.open("toppingsIn", ios::app);
 
     if(fout.is_open())
     {
-        fout << admin;
+        fout << topping_info;
         fout.close();
     }
     else

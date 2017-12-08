@@ -1,21 +1,28 @@
 #include "toppingmodel.h"
 
-ToppingModel::ToppingModel()
+toppingmodel::toppingmodel()
 {
     //ctor
 }
 
-ToppingModel::ToppingModel(string name, double price)
+toppingmodel::toppingmodel(string name, int price)
 {
     this->name = name;
     this->price = price;
 }
 
-string ToppingModel::get_name()
+string toppingmodel::get_name()
 {
     return this->name;
 }
-double ToppingModel::get_price()
+int toppingmodel::get_price()
 {
     return this->price;
+}
+
+
+ostream& operator << (ostream& out, const toppingmodel& topping_info)
+{
+    out << topping_info.name << ", " << topping_info.price << endl;
+    return out;
 }

@@ -4,22 +4,23 @@
 #include "AdministratorUI.h"
 #include <iostream>
 
-#include "toppingsService.h"
 
 using namespace std;
 
-class ToppingModel
+class toppingmodel
 {
     public:
-        ToppingModel();
-        ToppingModel(string name, double price);
+        toppingmodel();
+        toppingmodel(string name, int price);
         string get_name();
-        double get_price();
+        int get_price();
+
+        friend ostream& operator << (ostream& out, const toppingmodel& topping_info);
 
 
     private:
         string name;
-        double price;
+        int price;
 };
 
 #endif // TOPPINGMODEL_H

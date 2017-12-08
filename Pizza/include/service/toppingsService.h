@@ -1,17 +1,17 @@
 #ifndef TOPPINGSSERVICE_H
 #define TOPPINGSSERVICE_H
-//#include "ToppingsRepository.h"
+#include "ToppingsModel.h"
 #include "AdministratorUI.h"
-#include "toppingsService.h"
 using namespace std;
 
 class toppingsService
 {
     public:
         toppingsService();
-        void get_toppings_info(const toppingsService& topping);
+        void add_topping_info(const ToppingsModel& topping_info);
 
     private:
+        ToppingsRepository toppings_info_repo;
 };
 
 #endif // TOPPINGSSERVICE_H
