@@ -17,9 +17,9 @@ void SalespersonUI::salesperson_menu()
         cout << "2. Add pizzas (and other stuff) to order.  " << endl;
         cout << "3. Flag order as paid for.                 " << endl;
         cout << "4. Register pick-up or delivery.           " << endl;
-        cout << "4. View total prize.                       " << endl;
+        cout << "4. View total price.                       " << endl;
         cout << "5. Register comments.                      " << endl;
-        cout << "6. Flag Pizza for specific location        " << endl;
+        cout << "6. Flag Pizza for specific location.       " << endl;
         cout << "7. Back to main menu.                               " << endl;
         cout << "-------------------------------------------" << endl;
 

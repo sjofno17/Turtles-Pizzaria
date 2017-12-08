@@ -189,13 +189,14 @@
 1512668186 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\src\repository\toppingsrepository.cpp
 	"ToppingsRepository.h"
 
-1512672264 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\include\repository\toppingsrepository.h
+1512686540 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\include\repository\toppingsrepository.h
 	<fstream>
 	"toppingmodel.h"
+	"toppingsService.h"
 
-1512672004 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\include\service\toppingsservice.h
-	"ToppingsRepository.h"
+1512687178 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\include\service\toppingsservice.h
 	"AdministratorUI.h"
+	"toppingsService.h"
 
 1512672544 source:c:\users\gunnar\desktop\turtles-pizzaria-master\pizza\main.cpp
 	<iostream>
