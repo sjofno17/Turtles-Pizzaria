@@ -82,7 +82,7 @@ Employee_info Employee_UI::create_info()
 
 void Employee_UI::get_All_Records_Salary_For_Ssn(){
     long ssn;
-    cout << "Employee social security number: ";
+    cout << "Employee's social security number: ";
     cin >>ssn;
 
 }

@@ -17,8 +17,12 @@ public:
     double get_salary();
     int get_month();
     int get_year();
+    void set_salary(double salary);
+    void set_month(int month);
+    void set_year(int year);
 
-    friend ostream& operator << (ostream& out, const Employee_info& model);
+    friend ostream& operator << (ostream& out, Employee_info& info);
+    friend istream& operator >> (istream& in, Employee_info& info);
 
 private:
     string name;
