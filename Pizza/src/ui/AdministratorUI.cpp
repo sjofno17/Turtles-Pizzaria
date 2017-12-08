@@ -31,27 +31,50 @@ void AdministratorUI::administrator_menu()
 
 void AdministratorUI::validate_input(char input)
 {
+    int input_num;
+    int input_num2;
+    string name;
+    double price;
+    ///Checking how many sizes and crust to price and what to price them.
     if(input == '1')
     {
+        cout << "How many types of sizes?";
+        cin >> input_num;
+        for (int i = 0; i < input_num; i++)
+        {
+            cout << "Name of size: ";
+            cin >> name;
+            cout << "Price of size: ";
+            cin >> price;
+        }
+
+        cout << "How many crusts?";
+        cin >> input_num2;
+        for (int i = 0; i < input_num2; i++)
+        {
+            cout << "Name of crust: ";
+            cin >> name;
+            cout << "Price of crust: ";
+            cin >> price;
+        }
+    }
+
+    ///Checking how many topping the administrator wants to price.
+    else if(input == '2')
+    {
         cout << "How many toppings? ";
-        char input;
+        char input_num;
         cin >> input;
 
-        string name;
         double price;
 
-        for(int i = 0; i < input; i++)
+        for(int i = 0; i < input_num; i++)
         {
             cout << "Name of topping: ";
             cin >> name;
             cout << endl;
             cout << "Price: ";
             cin >> price;
-        }
-    }
-    else if(input == '2')
-    {
-        //toppings
     }
     else if(input == '3')
     {
