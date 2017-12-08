@@ -147,3 +147,9 @@ PizzaMenuModel AdministratorUI::create_pizza_menu()
     cout << "THIS" << pizza_menu_info;
     return pizza_menu_info;
 }
+
+OtherModels AdministratorUI::create_other()
+{
+
+}
+

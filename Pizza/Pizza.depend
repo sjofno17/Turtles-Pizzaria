@@ -56,12 +56,11 @@
 	"EmployeeUI.h"
 	<stdlib.h>
 
-1512746463 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\include\ui\administratorui.h
+1512747373 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\include\ui\administratorui.h
 	<stdlib.h>
 	<iostream>
 	"MainMenuUI.h"
-	"AdministratorInfo.h"
-	"ToppingsModel.h"
+	"toppingmodel.h"
 	"toppingsService.h"
 	"SizeCrustModels.h"
 	"SizeCrustService.h"
@@ -184,7 +183,7 @@
 	"AdministratorUI.h"
 	<iostream>
 
-1512667756 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\src\models\toppingmodel.cpp
+1512742232 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\src\models\toppingmodel.cpp
 	"toppingmodel.h"
 
 1512668186 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\src\repository\toppingsrepository.cpp
@@ -194,8 +193,8 @@
 	<fstream>
 	"toppingmodel.h"
 
-1512746576 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\include\service\toppingsservice.h
-	"ToppingsModel.h"
+1512747455 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\include\service\toppingsservice.h
+	"toppingmodel.h"
 	"AdministratorUI.h"
 
 1512672544 source:c:\users\gunnar\desktop\turtles-pizzaria-master\pizza\main.cpp
@@ -362,4 +361,20 @@
 1512745891 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\include\models\pizzamenumodel.h
 	<iostream>
 	<string>
+
+1512746786 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\src\models\othermodels.cpp
+	"OtherModels.h"
+
+1512746786 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\include\models\othermodels.h
+
+1512745891 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\src\models\pizzamenumodel.cpp
+	"PizzaMenuModel.h"
+
+1512742232 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\src\models\toppingsmodel.cpp
+	"ToppingsModel.h"
+
+1512746822 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\src\repository\otherrepository.cpp
+	"OtherRepository.h"
+
+1512746822 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\include\repository\otherrepository.h
 
