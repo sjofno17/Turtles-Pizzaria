@@ -5,8 +5,8 @@ toppingsService::toppingsService()
     //ctor
 }
 
-void toppingsService::get_toppings_info(const toppingsService& topping)
+void toppingsService::add_topping_info(const toppingmodel& topping_info)
 {
-    ToppingsRepository.get_toppings_info(topping);
-    cout << topping << endl;
+    toppings_info_repo.add_topping_info(topping_info);
+    cout << topping_info << endl;
 }

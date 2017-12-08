@@ -9,10 +9,9 @@ class ToppingsRepository
 {
     public:
         ToppingsRepository();
-
+        void add_topping_info(const ToppingsModel& topping_info);
         void add_info(const toppingsService& topping);
 
-    private:
 };
 
 #endif // TOPPINGSREPOSITORY_H
