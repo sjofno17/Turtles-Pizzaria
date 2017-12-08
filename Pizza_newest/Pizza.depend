@@ -56,15 +56,14 @@
 	"EmployeeUI.h"
 	<stdlib.h>
 
-1512747373 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\include\ui\administratorui.h
+1512668522 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\include\ui\administratorui.h
 	<stdlib.h>
 	<iostream>
 	"MainMenuUI.h"
-	"toppingmodel.h"
+	"AdministratorInfo.h"
+	"ToppingModel.h"
 	"toppingsService.h"
-	"SizeCrustModels.h"
-	"SizeCrustService.h"
-	"PizzaMenuModel.h"
+	"ToppingsRepository.h"
 
 1512650089 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\include\ui\salespersonui.h
 	<iostream>
@@ -175,32 +174,24 @@
 	<string>
 	<vector>
 
-1512746393 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\include\models\toppingmodel.h
+1512670256 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\include\models\toppingmodel.h
 	<string>
 	"AdministratorUI.h"
 	<iostream>
+	"toppingsService.h"
 
-1512742232 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\src\models\toppingmodel.cpp
+1512667756 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\src\models\toppingmodel.cpp
 	"toppingmodel.h"
 
 1512668186 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\src\repository\toppingsrepository.cpp
 	"ToppingsRepository.h"
 
-<<<<<<< HEAD
 1512672264 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\include\repository\toppingsrepository.h
 	<fstream>
 	"toppingmodel.h"
 
 1512672004 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\include\service\toppingsservice.h
 	"ToppingsRepository.h"
-=======
-1512746569 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\include\repository\toppingsrepository.h
-	<fstream>
-	"toppingmodel.h"
-
-1512747455 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\include\service\toppingsservice.h
-	"toppingmodel.h"
->>>>>>> c2dd6672a6a5c60e9ac59e2d4f55e42e9f45a13e
 	"AdministratorUI.h"
 
 1512672544 source:c:\users\gunnar\desktop\turtles-pizzaria-master\pizza\main.cpp
@@ -306,139 +297,174 @@
 1512703370 source:c:\users\gunnar\desktop\turtles-pizzaria-master\pizza\src\service\sizecrustservice.cpp
 	"SizeCrustService.h"
 
-1512672544 source:c:\users\gunnar\desktop\pizza\main.cpp
+1512672544 source:c:\users\gunnar\desktop\turtles-pizzaria\pizza\main.cpp
 	<iostream>
 	"MainMenuUI.h"
 
-1512672544 c:\users\gunnar\desktop\pizza\include\ui\mainmenuui.h
+1512672544 c:\users\gunnar\desktop\turtles-pizzaria\pizza\include\ui\mainmenuui.h
 	"AdministratorUI.h"
 	"SalespersonUI.h"
 	"BakerUI.h"
 	"EmployeeUI.h"
 	<stdlib.h>
 
-1512705402 c:\users\gunnar\desktop\pizza\include\ui\administratorui.h
+1512763561 c:\users\gunnar\desktop\turtles-pizzaria\pizza\include\ui\administratorui.h
 	<stdlib.h>
 	<iostream>
 	"MainMenuUI.h"
-	"AdministratorInfo.h"
+	"AdministratorUI.h"
 	"ToppingsModel.h"
 	"toppingsService.h"
 	"SizeCrustModels.h"
 	"SizeCrustService.h"
+	"MenuPizzaModel.h"
+	"MenuPizzaService.h"
+	"DrinksModel.h"
+	"DrinksService.h"
+	"LocationModel.h"
+	"LocationService.h"
 
-1512672544 c:\users\gunnar\desktop\pizza\include\model\administratorinfo.h
+1512672544 c:\users\gunnar\desktop\turtles-pizzaria\pizza\include\model\administratorinfo.h
 	<string>
 	<vector>
 
-1512701778 c:\users\gunnar\desktop\pizza\include\models\toppingsmodel.h
+1512701777 c:\users\gunnar\desktop\turtles-pizzaria\pizza\include\models\toppingsmodel.h
 	<string>
 	<iostream>
 
-1512702912 c:\users\gunnar\desktop\pizza\include\service\toppingsservice.h
+1512702910 c:\users\gunnar\desktop\turtles-pizzaria\pizza\include\service\toppingsservice.h
 	"ToppingsModel.h"
 	"ToppingsRepository.h"
 
-1512695564 c:\users\gunnar\desktop\pizza\include\repository\toppingsrepository.h
+1512695563 c:\users\gunnar\desktop\turtles-pizzaria\pizza\include\repository\toppingsrepository.h
 	"ToppingsModel.h"
 	<fstream>
 
-1512706506 c:\users\gunnar\desktop\pizza\include\models\sizecrustmodels.h
+1512757467 c:\users\gunnar\desktop\turtles-pizzaria\pizza\include\models\sizecrustmodels.h
 	<string>
 	<iostream>
 
-1512705356 c:\users\gunnar\desktop\pizza\include\service\sizecrustservice.h
+1512705354 c:\users\gunnar\desktop\turtles-pizzaria\pizza\include\service\sizecrustservice.h
 	"SizeCrustModels.h"
 	"SizeCrustRepository.h"
 
-1512703498 c:\users\gunnar\desktop\pizza\include\repository\sizecrustrepository.h
+1512703497 c:\users\gunnar\desktop\turtles-pizzaria\pizza\include\repository\sizecrustrepository.h
 	"SizeCrustModels.h"
 	<fstream>
 
-1512672544 c:\users\gunnar\desktop\pizza\include\ui\salespersonui.h
+1512672544 c:\users\gunnar\desktop\turtles-pizzaria\pizza\include\ui\salespersonui.h
 	<iostream>
 	<MainMenuUI.h>
 
-1512672544 c:\users\gunnar\desktop\pizza\include\ui\bakerui.h
+1512672544 c:\users\gunnar\desktop\turtles-pizzaria\pizza\include\ui\bakerui.h
 	<iostream>
 	<MainMenuUI.h>
 
-1512672544 c:\users\gunnar\desktop\pizza\include\ui\employeeui.h
+1512672544 c:\users\gunnar\desktop\turtles-pizzaria\pizza\include\ui\employeeui.h
 	<iostream>
 	<MainMenuUI.h>
 
-1512749615 source:c:\users\gunnar\desktop\pizza\src\models\sizecrustmodels.cpp
-	"SizeCrustModels.h"
-
-1512698836 source:c:\users\gunnar\desktop\pizza\src\models\toppingsmodel.cpp
+1512698834 source:c:\users\gunnar\desktop\turtles-pizzaria\pizza\src\models\toppingsmodel.cpp
 	"ToppingsModel.h"
 
-1512749695 source:c:\users\gunnar\desktop\pizza\src\repository\sizecrustrepository.cpp
+1512758028 source:c:\users\gunnar\desktop\turtles-pizzaria\pizza\src\repository\sizecrustrepository.cpp
 	"SizeCrustRepository.h"
 
-1512749695 source:c:\users\gunnar\desktop\pizza\src\repository\toppingsrepository.cpp
+1512757112 source:c:\users\gunnar\desktop\turtles-pizzaria\pizza\src\repository\toppingsrepository.cpp
 	"ToppingsRepository.h"
 
-1512703372 source:c:\users\gunnar\desktop\pizza\src\service\sizecrustservice.cpp
+1512757764 source:c:\users\gunnar\desktop\turtles-pizzaria\pizza\src\service\sizecrustservice.cpp
 	"SizeCrustService.h"
 
-1512703408 source:c:\users\gunnar\desktop\pizza\src\service\toppingsservice.cpp
+1512703406 source:c:\users\gunnar\desktop\turtles-pizzaria\pizza\src\service\toppingsservice.cpp
 	"toppingsService.h"
 
-<<<<<<< HEAD
-1512672544 source:c:\users\gunnar\desktop\pizza\src\ui\bakerui.cpp
+1512672544 source:c:\users\gunnar\desktop\turtles-pizzaria\pizza\src\ui\bakerui.cpp
 	"BakerUI.h"
 	<stdlib.h>
 
-1512672544 source:c:\users\gunnar\desktop\pizza\src\ui\employeeui.cpp
+1512672544 source:c:\users\gunnar\desktop\turtles-pizzaria\pizza\src\ui\employeeui.cpp
 	"EmployeeUI.h"
 	<stdlib.h>
 
-1512672544 source:c:\users\gunnar\desktop\pizza\src\ui\mainmenuui.cpp
+1512768669 source:c:\users\gunnar\desktop\turtles-pizzaria\pizza\src\ui\mainmenuui.cpp
 	"MainMenuUI.h"
 
-1512672544 source:c:\users\gunnar\desktop\pizza\src\ui\salespersonui.cpp
+1512672544 source:c:\users\gunnar\desktop\turtles-pizzaria\pizza\src\ui\salespersonui.cpp
 	"SalespersonUI.h"
 	<stdlib.h>
 
-1512749406 source:c:\users\gunnar\desktop\pizza\src\ui\administratorui.cpp
+1512753772 source:c:\users\gunnar\desktop\turtles-pizzaria\pizza\src\models\sizecrustmodels.cpp
+	"SizeCrustModels.h"
+
+1512768824 source:c:\users\gunnar\desktop\turtles-pizzaria\pizza\src\ui\administratorui.cpp
 	"AdministratorUI.h"
 	<stdlib.h>
-=======
-1512742232 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\include\models\toppingsmodel.h
+
+1512757842 c:\users\gunnar\desktop\turtles-pizzaria\pizza\include\models\menupizzamodel.h
 	<string>
 	<iostream>
 
-1512742232 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\include\models\sizecrustmodels.h
-	<string>
-	<iostream>
+1512757678 c:\users\gunnar\desktop\turtles-pizzaria\pizza\include\service\menupizzaservice.h
+	"MenuPizzaModel.h"
+	"MenuPizzaRepository.h"
 
-1512742232 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\include\service\sizecrustservice.h
-	"SizeCrustModels.h"
-	"SizeCrustRepository.h"
+1512756330 source:c:\users\gunnar\desktop\turtles-pizzaria\pizza\src\models\menupizzamodel.cpp
+	"MenuPizzaModel.h"
 
-1512742232 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\include\repository\sizecrustrepository.h
-	"SizeCrustModels.h"
+1512757548 c:\users\gunnar\desktop\turtles-pizzaria\pizza\include\repository\menupizzarepository.h
+	"MenuPizzaModel.h"
 	<fstream>
 
-1512745891 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\include\models\pizzamenumodel.h
-	<iostream>
+1512757122 source:c:\users\gunnar\desktop\turtles-pizzaria\pizza\src\repository\menupizzarepository.cpp
+	"MenuPizzaRepository.h"
+
+1512757715 source:c:\users\gunnar\desktop\turtles-pizzaria\pizza\src\service\menupizzaservice.cpp
+	"MenuPizzaService.h"
+
+1512759982 c:\users\gunnar\desktop\turtles-pizzaria\pizza\include\models\drinksmodel.h
 	<string>
+	<iostream>
 
-1512746786 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\src\models\othermodels.cpp
-	"OtherModels.h"
+1512761880 c:\users\gunnar\desktop\turtles-pizzaria\pizza\include\service\drinksservice.h
+	"DrinksModel.h"
+	"DrinksRepository.h"
 
-1512746786 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\include\models\othermodels.h
+1512759982 c:\users\gunnar\desktop\turtles-pizzaria\pizza\include\repository\drinksrepository.h
+	"DrinksModel.h"
+	<fstream>
 
-1512745891 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\src\models\pizzamenumodel.cpp
-	"PizzaMenuModel.h"
+1512759235 source:c:\users\gunnar\desktop\turtles-pizzaria\pizza\src\models\drinksmodel.cpp
+	"DrinksModel.h"
 
-1512742232 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\src\models\toppingsmodel.cpp
-	"ToppingsModel.h"
+1512761663 source:c:\users\gunnar\desktop\turtles-pizzaria\pizza\src\repository\drinksrepository.cpp
+	"DrinksRepository.h"
+	"DrinksModel.h"
+	<fstream>
 
-1512746822 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\src\repository\otherrepository.cpp
-	"OtherRepository.h"
+1512761816 source:c:\users\gunnar\desktop\turtles-pizzaria\pizza\src\service\drinksservice.cpp
+	"DrinksService.h"
 
-1512746822 c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza\include\repository\otherrepository.h
->>>>>>> c2dd6672a6a5c60e9ac59e2d4f55e42e9f45a13e
+1512763173 source:c:\users\gunnar\desktop\turtles-pizzaria\pizza\src\models\locationmodel.cpp
+	"LocationModel.h"
+
+1512763141 c:\users\gunnar\desktop\turtles-pizzaria\pizza\include\models\locationmodel.h
+	<string>
+	<iostream>
+
+1512763280 source:c:\users\gunnar\desktop\turtles-pizzaria\pizza\src\repository\locationrepository.cpp
+	"LocationRepository.h"
+	"LocationModel.h"
+	<fstream>
+
+1512763360 c:\users\gunnar\desktop\turtles-pizzaria\pizza\include\repository\locationrepository.h
+	"LocationModel.h"
+	<fstream>
+
+1512763430 c:\users\gunnar\desktop\turtles-pizzaria\pizza\include\service\locationservice.h
+	"LocationModel.h"
+	"LocationRepository.h"
+
+1512762979 source:c:\users\gunnar\desktop\turtles-pizzaria\pizza\src\service\locationservice.cpp
+	"LocationService.h"
 

@@ -18,6 +18,7 @@
 					<Add directory="include/model" />
 					<Add directory="include/models" />
 					<Add directory="include/repository" />
+					<Add directory="repository" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -32,6 +33,7 @@
 					<Add directory="include/model" />
 					<Add directory="include/models" />
 					<Add directory="include/repository" />
+					<Add directory="repository" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -42,23 +44,19 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-<<<<<<< HEAD
+		<Unit filename="include/models/DrinksModel.h" />
+		<Unit filename="include/models/LocationModel.h" />
+		<Unit filename="include/models/MenuPizzaModel.h" />
 		<Unit filename="include/models/SizeCrustModels.h" />
 		<Unit filename="include/models/ToppingsModel.h" />
-=======
-		<Unit filename="include/models/OtherModels.h" />
-		<Unit filename="include/models/PizzaMenuModel.h" />
-		<Unit filename="include/models/ToppingsModel.h" />
-		<Unit filename="include/models/toppingmodel.h" />
-		<Unit filename="include/repositories/PizzaRepository.h" />
-		<Unit filename="include/repository/OtherRepository.h" />
-		<Unit filename="include/repository/PizzaMenuRepository.h" />
-		<Unit filename="include/repository/PizzaRepository.h" />
->>>>>>> c2dd6672a6a5c60e9ac59e2d4f55e42e9f45a13e
+		<Unit filename="include/repository/DrinksRepository.h" />
+		<Unit filename="include/repository/LocationRepository.h" />
+		<Unit filename="include/repository/MenuPizzaRepository.h" />
 		<Unit filename="include/repository/SizeCrustRepository.h" />
 		<Unit filename="include/repository/ToppingsRepository.h" />
-		<Unit filename="include/service/OtherService.h" />
-		<Unit filename="include/service/PizzaMenuService.h" />
+		<Unit filename="include/service/DrinksService.h" />
+		<Unit filename="include/service/LocationService.h" />
+		<Unit filename="include/service/MenuPizzaService.h" />
 		<Unit filename="include/service/SizeCrustService.h" />
 		<Unit filename="include/service/toppingsService.h" />
 		<Unit filename="include/ui/AdministratorUI.h" />
@@ -67,22 +65,19 @@
 		<Unit filename="include/ui/MainMenuUI.h" />
 		<Unit filename="include/ui/SalespersonUI.h" />
 		<Unit filename="main.cpp" />
-<<<<<<< HEAD
+		<Unit filename="src/models/DrinksModel.cpp" />
+		<Unit filename="src/models/LocationModel.cpp" />
+		<Unit filename="src/models/MenuPizzaModel.cpp" />
 		<Unit filename="src/models/SizeCrustModels.cpp" />
 		<Unit filename="src/models/ToppingsModel.cpp" />
-=======
-		<Unit filename="src/models/OtherModels.cpp" />
-		<Unit filename="src/models/PizzaMenuModel.cpp" />
-		<Unit filename="src/models/ToppingsModel.cpp" />
-		<Unit filename="src/models/toppingmodel.cpp" />
-		<Unit filename="src/repository/OtherRepository.cpp" />
-		<Unit filename="src/repository/PizzaMenuRepository.cpp" />
-		<Unit filename="src/repository/PizzaRepository.cpp" />
->>>>>>> c2dd6672a6a5c60e9ac59e2d4f55e42e9f45a13e
+		<Unit filename="src/repository/DrinksRepository.cpp" />
+		<Unit filename="src/repository/LocationRepository.cpp" />
+		<Unit filename="src/repository/MenuPizzaRepository.cpp" />
 		<Unit filename="src/repository/SizeCrustRepository.cpp" />
 		<Unit filename="src/repository/ToppingsRepository.cpp" />
-		<Unit filename="src/service/OtherService.cpp" />
-		<Unit filename="src/service/PizzaMenuService.cpp" />
+		<Unit filename="src/service/DrinksService.cpp" />
+		<Unit filename="src/service/LocationService.cpp" />
+		<Unit filename="src/service/MenuPizzaService.cpp" />
 		<Unit filename="src/service/SizeCrustService.cpp" />
 		<Unit filename="src/service/toppingsService.cpp" />
 		<Unit filename="src/ui/AdministratorUI.cpp" />
