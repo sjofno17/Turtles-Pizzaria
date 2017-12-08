@@ -18,7 +18,7 @@ public:
     int get_month();
     int get_year();
 
-    friend ostream& operator << (ostream& out, const Employee_info& model);
+    friend ostream& operator << (ostream& out, const Employee_info& info);
 
 private:
     string name;
