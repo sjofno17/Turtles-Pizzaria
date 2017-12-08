@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Pizza" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Pizza" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include/ui" />
+					<Add directory="include/service" />
+					<Add directory="include/model" />
+					<Add directory="include/models" />
+					<Add directory="include/repository" />
+					<Add directory="repository" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Pizza" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include/ui" />
+					<Add directory="include/service" />
+					<Add directory="include/model" />
+					<Add directory="include/models" />
+					<Add directory="include/repository" />
+					<Add directory="repository" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/models/DrinksModel.h" />
+		<Unit filename="include/models/LocationModel.h" />
+		<Unit filename="include/models/MenuPizzaModel.h" />
+		<Unit filename="include/models/SizeCrustModels.h" />
+		<Unit filename="include/models/ToppingsModel.h" />
+		<Unit filename="include/repository/DrinksRepository.h" />
+		<Unit filename="include/repository/LocationRepository.h" />
+		<Unit filename="include/repository/MenuPizzaRepository.h" />
+		<Unit filename="include/repository/SizeCrustRepository.h" />
+		<Unit filename="include/repository/ToppingsRepository.h" />
+		<Unit filename="include/service/DrinksService.h" />
+		<Unit filename="include/service/LocationService.h" />
+		<Unit filename="include/service/MenuPizzaService.h" />
+		<Unit filename="include/service/SizeCrustService.h" />
+		<Unit filename="include/service/toppingsService.h" />
+		<Unit filename="include/ui/AdministratorUI.h" />
+		<Unit filename="include/ui/BakerUI.h" />
+		<Unit filename="include/ui/EmployeeUI.h" />
+		<Unit filename="include/ui/MainMenuUI.h" />
+		<Unit filename="include/ui/SalespersonUI.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/models/DrinksModel.cpp" />
+		<Unit filename="src/models/LocationModel.cpp" />
+		<Unit filename="src/models/MenuPizzaModel.cpp" />
+		<Unit filename="src/models/SizeCrustModels.cpp" />
+		<Unit filename="src/models/ToppingsModel.cpp" />
+		<Unit filename="src/repository/DrinksRepository.cpp" />
+		<Unit filename="src/repository/LocationRepository.cpp" />
+		<Unit filename="src/repository/MenuPizzaRepository.cpp" />
+		<Unit filename="src/repository/SizeCrustRepository.cpp" />
+		<Unit filename="src/repository/ToppingsRepository.cpp" />
+		<Unit filename="src/service/DrinksService.cpp" />
+		<Unit filename="src/service/LocationService.cpp" />
+		<Unit filename="src/service/MenuPizzaService.cpp" />
+		<Unit filename="src/service/SizeCrustService.cpp" />
+		<Unit filename="src/service/toppingsService.cpp" />
+		<Unit filename="src/ui/AdministratorUI.cpp" />
+		<Unit filename="src/ui/BakerUI.cpp" />
+		<Unit filename="src/ui/EmployeeUI.cpp" />
+		<Unit filename="src/ui/MainMenuUI.cpp" />
+		<Unit filename="src/ui/SalespersonUI.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
