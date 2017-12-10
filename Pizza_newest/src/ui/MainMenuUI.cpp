@@ -10,8 +10,14 @@ void MainMenuUI::main_menu()
 {
     while(true)
     {
-            cout << "Turtles Pizzeria" << endl;
-            cout << "****************" << endl;
+           /* cout << "               (_)              " << endl;
+            cout << "          _ __  _ __________ _  " << endl;
+            cout << "Turtles  | '_ \| |_  /_  / _` | " << endl;
+            cout << "         | |_)|| |/ / / / (_| | " << endl;
+            cout << "         | .__/|_/___/___\__,_| " << endl;
+            cout << "         | |                    " << endl;
+            cout << "         |_|                    " << endl;*/
+            cout << "********************************" << endl;
             cout << "Choose one of the following: (1, 2, 3 or 4)" << endl;
             cout << "-------------------------------------------" << endl;
             cout << "1. Administrator.                          " << endl;
