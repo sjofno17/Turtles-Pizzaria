@@ -21,11 +21,9 @@ void AdministratorUI::administrator_menu()
         cout << "5. Register locations / pick-up points.                   " << endl;
         cout << "6. Back to main menu.                                     " << endl;
 
-
         char input;
         cin >> input;
         validate_input(input);
-
     }
 }
 
@@ -80,7 +78,7 @@ ToppingsModel AdministratorUI::create_toppings()
     cin >> price;
 
     ToppingsModel toppings_info(name, price);
-    cout << "You have succesfully registered: ";
+    cout << "You have successfully registered: ";
     return toppings_info;
 }
 
@@ -100,7 +98,7 @@ SizeCrustModels AdministratorUI::create_size_crust()
     cout << endl;
 
     SizeCrustModels sizecrust_info(name, pizza_size, price);
-    cout << "You have succesfully registered: ";
+    cout << "You have successfully registered: ";
     return sizecrust_info;
 }
 
@@ -120,7 +118,7 @@ MenuPizzaModel AdministratorUI::create_menupizza()
     cout << endl;
 
     MenuPizzaModel menupizza_info(name, pizza_size, price);
-    cout << "You have succesfully registered: ";
+    cout << "You have successfully registered: ";
     return menupizza_info;
 }
 DrinksModel AdministratorUI::create_drinks()
@@ -136,7 +134,7 @@ DrinksModel AdministratorUI::create_drinks()
     cout << endl;
 
     DrinksModel drinks_info(name, price);
-    cout << "You have succesfully registered: ";
+    cout << "You have successfully registered: ";
     return drinks_info;
 }
 LocationModel AdministratorUI::create_location()
@@ -149,7 +147,7 @@ LocationModel AdministratorUI::create_location()
     cout << endl;
 
     LocationModel location_info(name);
-    cout << "You have succesfully registered: ";
+    cout << "You have successfully registered: ";
     return location_info;
 }
 
