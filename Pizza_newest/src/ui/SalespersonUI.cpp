@@ -20,7 +20,7 @@ void SalespersonUI::salesperson_menu()
         cout << "4. View total prize.                       " << endl;
         cout << "5. Register comments.                      " << endl;
         cout << "6. Flag Pizza for specific location        " << endl;
-        cout << "7. Back to main menu.                               " << endl;
+        cout << "7. Back to main menu.                      " << endl;
         cout << "-------------------------------------------" << endl;
 
         char input;

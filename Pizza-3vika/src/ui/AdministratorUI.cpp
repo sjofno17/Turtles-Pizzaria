@@ -3,7 +3,6 @@
 
 AdministratorUI::AdministratorUI()
 {
-    //ctor
 }
 
 void AdministratorUI::administrator_menu()
@@ -26,42 +25,95 @@ void AdministratorUI::administrator_menu()
         cout << "Input: ";
         cin >> input;
         validate_input(input);
-
     }
 }
 
 void AdministratorUI::validate_input(char input)
 {
+    ///Fill in toppings
     if(input == '1')
     {
         try
         {
-            topping_service.add_topping_info(create_toppings());
+            system("CLS");
+            string name;
+            int price;
+            vector<ToppingsModel> toppingVec;
+
+            cout << "Enter name for topping: ";
+            cin >> name;
+            cout << "Enter a price for " << name << ": ";
+            cin >> price;
+
+            ToppingsModel toppings_info(name, price);
+            cout << "You have successfully registered: " << name << ", " << price << endl;
+            toppingVec.push_back(toppings_info);
+
+            topping_repo.storeAllToppings(toppingVec);
         }
         catch(InvalidToppingException e)
         {
-            system("cls");
+            system("CLS");
             cout << e.getMessage() << endl;
         }
     }
+
+    ///fill in crust, size and name,price.
     else if(input == '2')
     {
         try
         {
-            sizecrust_service.add_size_crust(create_size_crust());
+            system("CLS");
+            string name;
+            string pizza_size;
+            int price;
+            vector<SizeCrustModels> sizeCrustVec;
+
+            cout << "Enter name for pizza crust: ";
+            cin >> name;
+            cout << "Enter small, medium or large " << name << "? ";
+            cin >> pizza_size;
+            cout << "Enter a price for " << pizza_size << " " << name << ": ";
+            cin >> price;
+            cout << endl;
+
+            SizeCrustModels sizecrust_info(name, pizza_size, price);
+            cout << "You have successfully registered: ";
+            sizeCrustVec.push_back(sizecrust_info);
+
+            sizeCrust_repo.storeAllSizeCrust(sizeCrustVec);
         }
+
         catch(InvalidSizeCrustException e)
         {
             system("cls");
             cout << e.getMessage() << endl;
         }
-
     }
+
     else if(input == '3')
     {
         try
         {
-            menupizza_service.add_menupizza(create_menupizza());
+            system("cls");
+            string name;
+            string pizza_size;
+            int price;
+            vector<MenuPizzaModel> menuPizzaVec;
+
+            cout << "Enter name for menu pizza: ";
+            cin >> name;
+            cout << "Enter small, medium or large " << name << "? ";
+            cin >> pizza_size;
+            cout << "Enter a price for " << pizza_size << " " << name << ": ";
+            cin >> price;
+            cout << endl;
+
+            MenuPizzaModel menupizza_info(name, pizza_size, price);
+            cout << "You have successfully registered: ";
+            menuPizzaVec.push_back(menupizza_info);
+
+            menuPizza_repo.storeAllMenuPizza(menuPizzaVec);
         }
         catch(InvalidMenuPizzaException e)
         {
@@ -69,11 +121,12 @@ void AdministratorUI::validate_input(char input)
             cout << e.getMessage() << endl;
         }
     }
+
     else if(input == '4')
     {
         try
         {
-            drinks_service.add_drinks(create_drinks());
+            //drinks_service.add_drinks(create_drinks());
         }
         catch(InvalidDrinksException e)
         {
@@ -81,11 +134,12 @@ void AdministratorUI::validate_input(char input)
             cout << e.getMessage() << endl;
         }
     }
+
     else if(input == '5')
     {
         try
         {
-            location_service.add_location(create_location());
+            //location_service.add_location(create_location());
         }
         catch(InvalidLocationException e)
         {
@@ -93,19 +147,21 @@ void AdministratorUI::validate_input(char input)
             cout << e.getMessage() << endl;
         }
     }
+
     else if(input == '6')
     {
         system("cls");
         MainMenuUI ui;
         ui.main_menu();
     }
+
     else
     {
         cout << "Invalid input please try again. " << endl;
     }
 }
 
-ToppingsModel AdministratorUI::create_toppings()
+/*ToppingsModel AdministratorUI::create_toppings()
 {
     system("cls");
     string name;
@@ -160,6 +216,7 @@ MenuPizzaModel AdministratorUI::create_menupizza()
     cout << "You have successfully registered: ";
     return menupizza_info;
 }
+
 DrinksModel AdministratorUI::create_drinks()
 {
     system("cls");
@@ -189,7 +246,4 @@ LocationModel AdministratorUI::create_location()
     cout << "You have successfully registered: ";
     return location_info;
 }
-
-
-
-
+*/

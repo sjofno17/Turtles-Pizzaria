@@ -1,9 +1,7 @@
 #include "SalespersonUI.h"
-#include <stdlib.h>
 
 SalespersonUI::SalespersonUI()
 {
-    //ctor
 }
 
 void SalespersonUI::salesperson_menu()
@@ -15,7 +13,9 @@ void SalespersonUI::salesperson_menu()
         cout << "-------------------------------------------" << endl;
         cout << "1. Pizza from menu + drinks.               " << endl;
         cout << "2. Make pizza + drinks .                   " << endl;
-        cout << "3. Back to main menu.                      " << endl;
+        cout << "3. Delivered or picked up.                 " << endl;
+        cout << "4. View total prize.                       " << endl;
+        cout << "5. Back to main menu.                      " << endl;
         cout << "-------------------------------------------" << endl;
 
         char input;
@@ -35,10 +35,40 @@ void SalespersonUI::validate_input(char input)
     ///make pizza + drinks.
     else if(input == '2')
     {
+        vector<ToppingsModel> toppings = topping_repo.retrieveAllToppings();
+        ToppingsModel topping;
+        int toppingselection = -1;
+        while (toppingselection != 0)
+        {
+            cout << "Enter a number for topping to choose on the pizza. (0 if you are finished)" << endl;
+            for (unsigned int i = 0; i <toppings.size(); i++)
+            {
+                cout << i+1 << ". " << toppings[i] << endl;
+            }
+            cin >> toppingselection;
+
+            if (toppingselection > 0 && toppingselection <= (int)toppings.size())
+            {
+                topping.addTopping(toppings[toppingselection - 1]);
+            }
+        }
+        topping_repo.storeAllToppings(toppings);
+        cout << endl;
+    }
+
+    ///delivered or picked up.
+    else if(input == '3')
+    {
 
     }
 
-    else if(input == '3')
+    ///total price
+    else if(input == '4')
+    {
+
+    }
+
+    else if(input == '5')
     {
         system("CLS");
         MainMenuUI ui;
