@@ -1,18 +1,16 @@
 #ifndef DRINKSREPOSITORY_H
 #define DRINKSREPOSITORY_H
-
-#include "DrinksModel.h"
+#include <vector>
 #include <fstream>
-
+#include "DrinksModel.h"
 using namespace std;
 
 class DrinksRepository
 {
     public:
         DrinksRepository();
-        void add_drinks(const DrinksModel& drinks_info);
-
-    private:
+        void storeAllDrinks(const vector<DrinksModel>& drinksVec);
+        vector<DrinksModel> retrieveAllDrinks();
 };
 
 #endif // DRINKSREPOSITORY_H

@@ -8,7 +8,7 @@ void LocationService::add_location(const LocationModel& location)
 {
     if(isValidName(location))
     {
-        location_repo.add_location(location);
+        add_location(location);
         cout << location << endl;
     }
 }

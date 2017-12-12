@@ -9,6 +9,7 @@ void AdministratorUI::administrator_menu()
 {
     while(true)
     {
+        cout << endl;
         cout << "Administrator Menu                                        " << endl;
         cout << "******************                                        " << endl;
         cout << "Choose one of the following: (1, 2, 3 or 4)               " << endl;
@@ -42,7 +43,7 @@ void AdministratorUI::validate_input(char input)
 
             cout << "Enter name for topping: ";
             cin >> name;
-            cout << "Enter a price for " << name << ": ";
+            cout << "Enter a price for: " << name << ": ";
             cin >> price;
 
             ToppingsModel toppings_info(name, price);
@@ -58,7 +59,7 @@ void AdministratorUI::validate_input(char input)
         }
     }
 
-    ///fill in crust, size and name,price.
+    ///fill in crust, size and price.
     else if(input == '2')
     {
         try
@@ -71,14 +72,14 @@ void AdministratorUI::validate_input(char input)
 
             cout << "Enter name for pizza crust: ";
             cin >> name;
-            cout << "Enter small, medium or large " << name << "? ";
+            cout << "Enter size for " << name << ". Small, medium or large? ";
             cin >> pizza_size;
             cout << "Enter a price for " << pizza_size << " " << name << ": ";
             cin >> price;
             cout << endl;
 
             SizeCrustModels sizecrust_info(name, pizza_size, price);
-            cout << "You have successfully registered: ";
+            cout << "You have successfully registered: " << name << ", " << price << endl;
             sizeCrustVec.push_back(sizecrust_info);
 
             sizeCrust_repo.storeAllSizeCrust(sizeCrustVec);
@@ -86,7 +87,7 @@ void AdministratorUI::validate_input(char input)
 
         catch(InvalidSizeCrustException e)
         {
-            system("cls");
+            system("CLS");
             cout << e.getMessage() << endl;
         }
     }
@@ -95,7 +96,7 @@ void AdministratorUI::validate_input(char input)
     {
         try
         {
-            system("cls");
+            system("CLS");
             string name;
             string pizza_size;
             int price;
@@ -110,14 +111,14 @@ void AdministratorUI::validate_input(char input)
             cout << endl;
 
             MenuPizzaModel menupizza_info(name, pizza_size, price);
-            cout << "You have successfully registered: ";
+            cout << "You have successfully registered: " << name << ", " << pizza_size << ", " << price << endl;
             menuPizzaVec.push_back(menupizza_info);
 
             menuPizza_repo.storeAllMenuPizza(menuPizzaVec);
         }
         catch(InvalidMenuPizzaException e)
         {
-            system("cls");
+            system("CLS");
             cout << e.getMessage() << endl;
         }
     }
@@ -126,11 +127,26 @@ void AdministratorUI::validate_input(char input)
     {
         try
         {
-            //drinks_service.add_drinks(create_drinks());
+            system("CLS");
+            string name;
+            int price;
+            vector<DrinksModel> drinksVec;
+
+            cout << "Enter name for drink: ";
+            cin >> name;
+            cout << "Enter a price for " << name << ": ";
+            cin >> price;
+            cout << endl;
+
+            DrinksModel drinks_info(name, price);
+            cout << "You have successfully registered: " << name << ", " << price << endl;
+            drinksVec.push_back(drinks_info);
+
+            drinks_repo.storeAllDrinks(drinksVec);
         }
         catch(InvalidDrinksException e)
         {
-            system("cls");
+            system("CLS");
             cout << e.getMessage() << endl;
         }
     }
@@ -139,18 +155,30 @@ void AdministratorUI::validate_input(char input)
     {
         try
         {
-            //location_service.add_location(create_location());
+            system("CLS");
+            string name;
+            vector<LocationModel> locationVec;
+
+            cout << "Enter a name for location: ";
+            cin >> name;
+            cout << endl;
+
+            LocationModel location_info(name);
+            cout << "You have successfully registered: " << name << endl;
+            locationVec.push_back(location_info);
+
+            location_repo.storeAllLocations(locationVec);
         }
         catch(InvalidLocationException e)
         {
-            system("cls");
+            system("CLS");
             cout << e.getMessage() << endl;
         }
     }
 
     else if(input == '6')
     {
-        system("cls");
+        system("CLS");
         MainMenuUI ui;
         ui.main_menu();
     }

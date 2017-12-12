@@ -13,8 +13,8 @@ public:
     ToppingsModel(string name, int price);
     string getName() const;
     int getPrice() const;
-    void addTopping(ToppingsModel topping);
 
+    void addTopping(ToppingsModel topping);
     void write(ofstream& fout) const;
     void read(ifstream& fin);
 

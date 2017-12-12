@@ -908,3 +908,218 @@
 1513114587 source:c:\users\sjöfn\desktop\pizza\src\repository\toppingsrepository.cpp
 	"ToppingsRepository.h"
 
+1513002729 source:c:\users\sjöfn\desktop\pizza-3vika\main.cpp
+	<iostream>
+	"MainMenuUI.h"
+
+1513002729 c:\users\sjöfn\desktop\pizza-3vika\include\ui\mainmenuui.h
+	"AdministratorUI.h"
+	"SalespersonUI.h"
+	"BakerUI.h"
+	"EmployeeUI.h"
+	<stdlib.h>
+
+1513120539 c:\users\sjöfn\desktop\pizza-3vika\include\ui\administratorui.h
+	<stdlib.h>
+	<iostream>
+	"MainMenuUI.h"
+	"AdministratorUI.h"
+	"ToppingsModel.h"
+	"toppingsService.h"
+	"ToppingsRepository.h"
+	"SizeCrustModels.h"
+	"SizeCrustService.h"
+	"MenuPizzaModel.h"
+	"MenuPizzaService.h"
+	"DrinksModel.h"
+	"DrinksService.h"
+	"LocationModel.h"
+	"LocationService.h"
+
+1513118499 c:\users\sjöfn\desktop\pizza-3vika\include\models\toppingsmodel.h
+	<string>
+	<iostream>
+	<fstream>
+	<vector>
+
+1513002729 c:\users\sjöfn\desktop\pizza-3vika\include\service\toppingsservice.h
+	"ToppingsModel.h"
+	"ToppingsRepository.h"
+	"InvalidToppingException.h"
+
+1513109039 c:\users\sjöfn\desktop\pizza-3vika\include\repository\toppingsrepository.h
+	<vector>
+	<fstream>
+	"ToppingsModel.h"
+
+1513002728 c:\users\sjöfn\desktop\pizza-3vika\include\exceptions\invalidtoppingexception.h
+	<string>
+
+1513114570 c:\users\sjöfn\desktop\pizza-3vika\include\models\sizecrustmodels.h
+	<string>
+	<iostream>
+	<vector>
+	<fstream>
+	<string>
+
+1513002729 c:\users\sjöfn\desktop\pizza-3vika\include\service\sizecrustservice.h
+	"SizeCrustModels.h"
+	"SizeCrustRepository.h"
+	"InvalidSizeCrustException.h"
+
+1513114003 c:\users\sjöfn\desktop\pizza-3vika\include\repository\sizecrustrepository.h
+	<vector>
+	"SizeCrustModels.h"
+	<fstream>
+
+1513002728 c:\users\sjöfn\desktop\pizza-3vika\include\exceptions\invalidsizecrustexception.h
+	<string>
+
+1513116345 c:\users\sjöfn\desktop\pizza-3vika\include\models\menupizzamodel.h
+	<string>
+	<iostream>
+	<vector>
+	<fstream>
+
+1513002729 c:\users\sjöfn\desktop\pizza-3vika\include\service\menupizzaservice.h
+	"MenuPizzaModel.h"
+	"MenuPizzaRepository.h"
+	"InvalidMenuPizzaException.h"
+
+1513115318 c:\users\sjöfn\desktop\pizza-3vika\include\repository\menupizzarepository.h
+	"MenuPizzaModel.h"
+	<fstream>
+
+1513002728 c:\users\sjöfn\desktop\pizza-3vika\include\exceptions\invalidmenupizzaexception.h
+	<string>
+
+1513118029 c:\users\sjöfn\desktop\pizza-3vika\include\models\drinksmodel.h
+	<vector>
+	<string>
+	<iostream>
+	<fstream>
+
+1513002728 c:\users\sjöfn\desktop\pizza-3vika\include\service\drinksservice.h
+	"DrinksModel.h"
+	"DrinksRepository.h"
+	"InvalidDrinksException.h"
+
+1513117324 c:\users\sjöfn\desktop\pizza-3vika\include\repository\drinksrepository.h
+	<vector>
+	<fstream>
+	"DrinksModel.h"
+
+1513002728 c:\users\sjöfn\desktop\pizza-3vika\include\exceptions\invaliddrinksexception.h
+	<string>
+
+1513118823 c:\users\sjöfn\desktop\pizza-3vika\include\models\locationmodel.h
+	<vector>
+	<string>
+	<iostream>
+	<fstream>
+
+1513002728 c:\users\sjöfn\desktop\pizza-3vika\include\service\locationservice.h
+	"LocationModel.h"
+	"LocationRepository.h"
+	"InvalidLocationException.h"
+
+1513118795 c:\users\sjöfn\desktop\pizza-3vika\include\repository\locationrepository.h
+	<vector>
+	"LocationModel.h"
+	<fstream>
+
+1513002728 c:\users\sjöfn\desktop\pizza-3vika\include\exceptions\invalidlocationexception.h
+	<string>
+
+1513109097 c:\users\sjöfn\desktop\pizza-3vika\include\ui\salespersonui.h
+	<stdlib.h>
+	<iostream>
+	<MainMenuUI.h>
+	"ToppingsRepository.h"
+
+1513002729 c:\users\sjöfn\desktop\pizza-3vika\include\ui\bakerui.h
+	<iostream>
+	<MainMenuUI.h>
+
+1513002729 c:\users\sjöfn\desktop\pizza-3vika\include\ui\employeeui.h
+	<iostream>
+	<MainMenuUI.h>
+
+1513002729 source:c:\users\sjöfn\desktop\pizza-3vika\src\exceptions\invaliddrinksexception.cpp
+	"InvalidDrinksException.h"
+
+1513002729 source:c:\users\sjöfn\desktop\pizza-3vika\src\exceptions\invalidlocationexception.cpp
+	"InvalidLocationException.h"
+
+1513002729 source:c:\users\sjöfn\desktop\pizza-3vika\src\exceptions\invalidmenupizzaexception.cpp
+	"InvalidMenuPizzaException.h"
+
+1513002729 source:c:\users\sjöfn\desktop\pizza-3vika\src\exceptions\invalidsizecrustexception.cpp
+	"InvalidSizeCrustException.h"
+
+1513002729 source:c:\users\sjöfn\desktop\pizza-3vika\src\exceptions\invalidtoppingexception.cpp
+	"InvalidToppingException.h"
+
+1513118000 source:c:\users\sjöfn\desktop\pizza-3vika\src\models\drinksmodel.cpp
+	"DrinksModel.h"
+
+1513118949 source:c:\users\sjöfn\desktop\pizza-3vika\src\models\locationmodel.cpp
+	"LocationModel.h"
+
+1513119446 source:c:\users\sjöfn\desktop\pizza-3vika\src\models\menupizzamodel.cpp
+	"MenuPizzaModel.h"
+
+1513119255 source:c:\users\sjöfn\desktop\pizza-3vika\src\models\sizecrustmodels.cpp
+	"SizeCrustModels.h"
+
+1513114383 source:c:\users\sjöfn\desktop\pizza-3vika\src\models\toppingsmodel.cpp
+	"ToppingsModel.h"
+
+1513118780 source:c:\users\sjöfn\desktop\pizza-3vika\src\repository\locationrepository.cpp
+	"LocationRepository.h"
+
+1513116215 source:c:\users\sjöfn\desktop\pizza-3vika\src\repository\menupizzarepository.cpp
+	"MenuPizzaRepository.h"
+
+1513114482 source:c:\users\sjöfn\desktop\pizza-3vika\src\repository\sizecrustrepository.cpp
+	"SizeCrustRepository.h"
+
+1513114587 source:c:\users\sjöfn\desktop\pizza-3vika\src\repository\toppingsrepository.cpp
+	"ToppingsRepository.h"
+
+1513117869 source:c:\users\sjöfn\desktop\pizza-3vika\src\service\drinksservice.cpp
+	"DrinksService.h"
+
+1513118834 source:c:\users\sjöfn\desktop\pizza-3vika\src\service\locationservice.cpp
+	"LocationService.h"
+
+1513116225 source:c:\users\sjöfn\desktop\pizza-3vika\src\service\menupizzaservice.cpp
+	"MenuPizzaService.h"
+
+1513114599 source:c:\users\sjöfn\desktop\pizza-3vika\src\service\sizecrustservice.cpp
+	"SizeCrustService.h"
+
+1513106614 source:c:\users\sjöfn\desktop\pizza-3vika\src\service\toppingsservice.cpp
+	"toppingsService.h"
+
+1513002729 source:c:\users\sjöfn\desktop\pizza-3vika\src\ui\bakerui.cpp
+	"BakerUI.h"
+	<stdlib.h>
+
+1513002729 source:c:\users\sjöfn\desktop\pizza-3vika\src\ui\employeeui.cpp
+	"EmployeeUI.h"
+	<stdlib.h>
+
+1513002729 source:c:\users\sjöfn\desktop\pizza-3vika\src\ui\mainmenuui.cpp
+	"MainMenuUI.h"
+
+1513120365 source:c:\users\sjöfn\desktop\pizza-3vika\src\ui\salespersonui.cpp
+	"SalespersonUI.h"
+
+1513117742 source:c:\users\sjöfn\desktop\pizza-3vika\src\repository\drinksrepository.cpp
+	"DrinksRepository.h"
+
+1513119611 source:c:\users\sjöfn\desktop\pizza-3vika\src\ui\administratorui.cpp
+	"AdministratorUI.h"
+	<stdlib.h>
+

@@ -37,6 +37,11 @@ void MenuPizzaModel::write(ofstream& fout) const
     fout.write((char*)(&stringlenght), sizeof(int));
     fout.write(name.c_str(), stringlenght);
 
+    int stringlenght2 = pizza_size.length() + 1;
+
+    fout.write((char*)(&stringlenght2), sizeof(int));
+    fout.write(pizza_size.c_str(), stringlenght2);
+
     fout.write((char*)(&price), sizeof(double));
 }
 void MenuPizzaModel::read(ifstream& fin)

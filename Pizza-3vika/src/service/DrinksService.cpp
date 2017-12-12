@@ -8,7 +8,7 @@ void DrinksService::add_drinks(const DrinksModel& drinks)
 {
     if(isValidName(drinks) && isValidPrice(drinks))
     {
-        drinks_repo.add_drinks(drinks);
+        add_drinks(drinks);
         cout << drinks << endl;
     }
 }

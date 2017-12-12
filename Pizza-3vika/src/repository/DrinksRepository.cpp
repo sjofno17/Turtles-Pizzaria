@@ -5,19 +5,42 @@ DrinksRepository::DrinksRepository()
     //ctor
 }
 
-void DrinksRepository::add_drinks(const DrinksModel& drinks_info)
+void DrinksRepository::storeAllDrinks(const vector<DrinksModel>& drinksVec)
 {
     ofstream fout;
-    fout.open("drinksIn.txt", ios::app);
+    fout.open("drinks.bin", ios::binary|ios::app);
 
-    if(fout.is_open())
+    int drinksCount = drinksVec.size();
+
+    fout.write ((char*)(&drinksCount), sizeof(int));
+
+    for (int i = 0; i < drinksCount; i++)
     {
-        fout << drinks_info;
-        fout.close();
+        drinksVec[i].write(fout);
     }
-    else
+
+    fout.close();
+}
+
+vector<DrinksModel> DrinksRepository::retrieveAllDrinks()
+{
+    vector<DrinksModel> drinksVec;
+    DrinksModel drink;
+
+    ifstream fin;
+    fin.open("drinks.bin", ios::binary);
+
+    if (fin.is_open())
     {
-        //throw error
-        cout << "Invalid" << endl;
+        int drinksCount;
+        fin.read((char*)(&drinksCount),sizeof(int));
+
+        for (int i = 0; i < drinksCount;i++)
+        {
+            drink.read(fin);
+            drinksVec.push_back(drink);
+        }
+        fin.close();
     }
+    return drinksVec;
 }

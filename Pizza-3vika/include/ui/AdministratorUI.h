@@ -21,7 +21,6 @@
 
 #include "LocationModel.h"
 #include "LocationService.h"
-
 using namespace std;
 
 class AdministratorUI
@@ -37,6 +36,8 @@ class AdministratorUI
         ToppingsRepository topping_repo;
         SizeCrustRepository sizeCrust_repo;
         MenuPizzaRepository menuPizza_repo;
+        DrinksRepository drinks_repo;
+        LocationRepository location_repo;
 
         /*ToppingsModel create_toppings();
         toppingsService topping_service;
