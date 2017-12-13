@@ -30,7 +30,6 @@ vector<MenuPizzaModel> MenuPizzaRepository::retrieveAllMenuPizza()
     ifstream fin;
     fin.open("menuPizza.bin", ios::binary);
 
-
     if (fin.is_open())
     {
         while (!fin.eof())
