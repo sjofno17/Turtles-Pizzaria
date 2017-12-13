@@ -29,6 +29,7 @@ int SizeCrustModels::get_price() const
 
 void SizeCrustModels::addSizeCrust(SizeCrustModels sizeCrust)
 {
+    vector<SizeCrustModels> sizeCrustVec;
     sizeCrustVec.push_back(sizeCrust);
 }
 

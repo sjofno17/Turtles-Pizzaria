@@ -12,8 +12,6 @@ class MenuPizzaRepository
         MenuPizzaRepository();
         void storeAllMenuPizza(const vector<MenuPizzaModel>& menuPizzaVec);
         vector<MenuPizzaModel> retrieveAllMenuPizza();
-
-    private:
 };
 
 #endif // MENUPIZZAREPOSITORY_H

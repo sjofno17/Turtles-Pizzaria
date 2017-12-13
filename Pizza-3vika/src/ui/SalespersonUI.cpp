@@ -28,7 +28,25 @@ void SalespersonUI::validate_input(char input)
     ///Pizza from menu and then asked about soda, delivery and shown full price.
     if(input == '1')
     {
+        system("CLS");
+        vector<MenuPizzaModel> menuPizzaVec = menuPizza_repo.retrieveAllMenuPizza();
+        MenuPizzaModel menuPizza;
+        int menuPizzaSelection = -1;
+        while (menuPizzaSelection != 0)
+        {
+            cout << "Enter a number for pizza on menu to choose. (0 if you are finished)" << endl;
+            for (unsigned int i = 0; i < menuPizzaVec.size(); i++)
+            {
+                cout << i+1 << ". " << menuPizzaVec[i] << endl;
+            }
+            cin >> menuPizzaSelection;
 
+            if (menuPizzaSelection > 0 && menuPizzaSelection <= (int)menuPizzaVec.size())
+            {
+                menuPizza.addMenuPizza(menuPizzaVec[menuPizzaSelection - 1]);
+            }
+        }
+        cout << endl;
     }
 
     ///make pizza and then asked about soda, delivery and shown full price.
@@ -41,9 +59,9 @@ void SalespersonUI::validate_input(char input)
         while (toppingselection != 0)
         {
             cout << "Enter a number for topping to choose on the pizza. (0 if you are finished)" << endl;
-            for (unsigned int i = 0; i <toppingsVec.size(); i++)
+            for (unsigned int i = 0; i < toppingsVec.size(); i++)
             {
-                cout << i+1 << ". " << toppingsVec[i] << endl;
+                cout << i+1 << ". " << toppingsVec[i];
             }
             cin >> toppingselection;
 
@@ -52,7 +70,6 @@ void SalespersonUI::validate_input(char input)
                 topping.addTopping(toppingsVec[toppingselection - 1]);
             }
         }
-        topping_repo.storeAllToppings(toppingsVec);
         cout << endl;
     }
 

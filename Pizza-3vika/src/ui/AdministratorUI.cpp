@@ -46,11 +46,11 @@ void AdministratorUI::validate_input(char input)
             cout << "Enter a price for: " << name << ": ";
             cin >> price;
 
-            ToppingsModel toppings_info(name, price);
+            ToppingsModel topping_info(name, price);
             cout << "You have successfully registered " << name << ", " << price << endl;
-            toppingVec.push_back(toppings_info);
+            toppingVec.push_back(topping_info);
 
-            topping_service.add_topping_info(toppings_info);
+            topping_service.addToppingInfo(toppingVec);
         }
         catch(InvalidToppingException e)
         {
@@ -82,7 +82,7 @@ void AdministratorUI::validate_input(char input)
             cout << "You have successfully registered: " << name << ", " << price << endl;
             sizeCrustVec.push_back(sizecrust_info);
 
-            sizecrust_service.add_size_crust(sizecrust_info);
+            sizecrust_service.add_size_crust(sizeCrustVec);
         }
 
         catch(InvalidSizeCrustException e)
@@ -114,7 +114,7 @@ void AdministratorUI::validate_input(char input)
             cout << "You have successfully registered: " << name << ", " << pizza_size << ", " << price << endl;
             menuPizzaVec.push_back(menupizza_info);
 
-            menupizza_service.add_menupizza(menupizza_info);
+            menupizza_service.add_menupizza(menuPizzaVec);
         }
         catch(InvalidMenuPizzaException e)
         {

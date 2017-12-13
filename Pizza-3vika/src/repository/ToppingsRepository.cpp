@@ -30,16 +30,18 @@ vector<ToppingsModel> ToppingsRepository::retrieveAllToppings()
     ifstream fin;
     fin.open("toppings.bin", ios::binary);
 
-
     if (fin.is_open())
     {
-        int toppingcount;
-        fin.read((char*)(&toppingcount),sizeof(int));
-
-        for (int i = 0; i < toppingcount;i++)
+        while (!fin.eof())
         {
-            topping.read(fin);
-            toppingVec.push_back(topping);
+            int toppingcount = 0;
+            fin.read((char*)(&toppingcount),sizeof(int));
+
+            for (int i = 0; i < toppingcount; i++)
+            {
+                topping.read(fin);
+                toppingVec.push_back(topping);
+            }
         }
         fin.close();
     }

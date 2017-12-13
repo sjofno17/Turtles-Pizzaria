@@ -33,13 +33,16 @@ vector<MenuPizzaModel> MenuPizzaRepository::retrieveAllMenuPizza()
 
     if (fin.is_open())
     {
-        int MenupizzaCount;
-        fin.read((char*)(&MenupizzaCount),sizeof(int));
-
-        for (int i = 0; i < MenupizzaCount;i++)
+        while (!fin.eof())
         {
-            menuPizza.read(fin);
-            menuPizzaVec.push_back(menuPizza);
+            int MenupizzaCount;
+            fin.read((char*)(&MenupizzaCount),sizeof(int));
+
+            for (int i = 0; i < MenupizzaCount; i++)
+            {
+                menuPizza.read(fin);
+                menuPizzaVec.push_back(menuPizza);
+            }
         }
         fin.close();
     }

@@ -24,7 +24,6 @@ public:
 private:
     string name;
     int price;
-    vector<ToppingsModel> toppingVec;
 };
 
 #endif // TOPPINGSMODEL_H

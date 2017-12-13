@@ -22,6 +22,7 @@ int ToppingsModel::getPrice()const
 
 void ToppingsModel::addTopping(ToppingsModel topping)
 {
+    vector<ToppingsModel> toppingVec;
     toppingVec.push_back(topping);
 }
 
@@ -49,18 +50,33 @@ void ToppingsModel::read(ifstream& fin)
 
 istream& operator >> (istream& in, ToppingsModel& topping_info)
 {
-    cout << "Topping name: ";
+    bool verbose = false;
+    if (verbose)
+    {
+        cout << "Topping name: ";
+    }
+    in >> ws;
     getline(in, topping_info.name);
-    cout << "Topping price: ";
+    if(verbose)
+    {
+        cout << "Topping price: ";
+    }
     in >> topping_info.price;
     return in;
 }
 
 ostream& operator << (ostream& out, const ToppingsModel& topping_info)
 {
-    out << "Topping name: ";
-    out << topping_info.name << endl;
-    out << "Topping price: ";
+    bool verbose = false;
+    if (verbose)
+    {
+        out << "Topping name: ";
+    }
+    out << topping_info.name << ", ";
+    if (verbose)
+    {
+        out << "Topping price: ";
+    }
     out << topping_info.price << endl;
     return out;
 }

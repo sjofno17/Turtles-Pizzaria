@@ -2,15 +2,14 @@
 
 SizeCrustService::SizeCrustService()
 {
-    //ctor
 }
 
-void SizeCrustService::add_size_crust(const SizeCrustModels& sizecrust_info)
+void SizeCrustService::add_size_crust(const vector<SizeCrustModels>& sizeCrustVec)
 {
+    SizeCrustModels sizecrust_info;
     if(isValidName(sizecrust_info) && isValidPizza_Size(sizecrust_info) && isValidPrice(sizecrust_info))
     {
-        add_size_crust(sizecrust_info);
-        cout << sizecrust_info << endl;
+        sizecrust_info_repo.storeAllSizeCrust(sizeCrustVec);
     }
 }
 

@@ -26,7 +26,6 @@ private:
     string name;
     string pizza_size;
     int price;
-    vector<SizeCrustModels> sizeCrustVec;
 };
 
 #endif // SIZECRUSTMODELS_H

@@ -2,19 +2,23 @@
 
 toppingsService::toppingsService()
 {
-    //ctor
 }
 
-void toppingsService::add_topping_info(const ToppingsModel& topping_info)
+void toppingsService::addToppingInfo(const vector<ToppingsModel>& toppingsVec)
 {
-    if(isValidTopping(topping_info) && isValidPrice(topping_info))
-    {
-        add_topping_info(topping_info);
-        cout << topping_info << endl;
-    }
+    ToppingsModel topping_info;
+    //if(isValidTopping(topping_info) && isValidPrice(topping_info))
+    //{
+        toppings_repo.storeAllToppings(toppingsVec);
+    //}
 }
 
-bool toppingsService::isValidTopping(const ToppingsModel& topping_info)
+void toppingsService::getToppingsInfo(const vector<ToppingsModel>& toppingsVec)
+{
+    toppings_repo.retrieveAllToppings();
+}
+
+/*bool toppingsService::isValidTopping(const ToppingsModel& topping_info)
 {
     string topping = topping_info.getName();
 
@@ -37,3 +41,4 @@ bool toppingsService::isValidPrice(const ToppingsModel& topping_info)
     }
     return true;
 }
+*/

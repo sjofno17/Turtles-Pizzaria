@@ -27,6 +27,7 @@ int MenuPizzaModel::get_price() const
 
 void MenuPizzaModel::addMenuPizza(MenuPizzaModel menuPizza)
 {
+    vector<MenuPizzaModel> menuPizzaVec;
     menuPizzaVec.push_back(menuPizza);
 }
 
@@ -44,6 +45,7 @@ void MenuPizzaModel::write(ofstream& fout) const
 
     fout.write((char*)(&price), sizeof(double));
 }
+
 void MenuPizzaModel::read(ifstream& fin)
 {
     int stringlenght;

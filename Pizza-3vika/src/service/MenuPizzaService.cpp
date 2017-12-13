@@ -4,14 +4,16 @@ MenuPizzaService::MenuPizzaService()
 {
     //ctor
 }
-void MenuPizzaService::add_menupizza(const MenuPizzaModel& menupizza_info)
+void MenuPizzaService::add_menupizza(const vector<MenuPizzaModel>& menuPizzaVec)
 {
-    if(isValidName(menupizza_info) && isValidPizza_Size(menupizza_info) && isValidPrice(menupizza_info))
-    {
-        add_menupizza(menupizza_info);
+    MenuPizzaModel menupizza_info;
+    //if(isValidName(menupizza_info) && isValidPizza_Size(menupizza_info) && isValidPrice(menupizza_info))
+    //{
+        menupizza_info_repo.storeAllMenuPizza(menuPizzaVec);
         cout << menupizza_info << endl;
-    }
+    //}
 }
+/*
 bool MenuPizzaService::isValidName(const MenuPizzaModel& menupizza_info)
 {
     string name = menupizza_info.get_name();
@@ -45,3 +47,4 @@ bool MenuPizzaService::isValidPrice(const MenuPizzaModel& menupizza_info)
     }
     return true;
 }
+*/

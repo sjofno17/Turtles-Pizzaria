@@ -10,7 +10,7 @@ class SizeCrustService
 {
     public:
         SizeCrustService();
-        void add_size_crust(const SizeCrustModels& sizecrust_info);
+        void add_size_crust(const vector<SizeCrustModels>& sizeCrustVec);
 
     private:
         SizeCrustRepository sizecrust_info_repo;

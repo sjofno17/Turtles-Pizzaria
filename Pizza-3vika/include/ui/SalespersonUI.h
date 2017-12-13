@@ -4,6 +4,7 @@
 #include <iostream>
 #include <MainMenuUI.h>
 #include "ToppingsRepository.h"
+#include "MenuPizzaRepository.h"
 using namespace std;
 
 class SalespersonUI
@@ -17,6 +18,7 @@ class SalespersonUI
         void validate_input(char input);
 
         ToppingsRepository topping_repo;
+        MenuPizzaRepository menuPizza_repo;
 };
 
 #endif // SALESPERSONUI_H
