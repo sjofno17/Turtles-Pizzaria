@@ -44,6 +44,7 @@ vector<ToppingsModel> ToppingsRepository::retrieveAllToppings()
             }
         }
         fin.close();
+        cout << "dfkljdfldkf";
     }
     return toppingVec;
 }

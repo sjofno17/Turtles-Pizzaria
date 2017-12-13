@@ -5,6 +5,7 @@
 #include <MainMenuUI.h>
 #include "ToppingsRepository.h"
 #include "MenuPizzaRepository.h"
+#include "SizeCrustRepository.h"
 using namespace std;
 
 class SalespersonUI
@@ -19,6 +20,7 @@ class SalespersonUI
 
         ToppingsRepository topping_repo;
         MenuPizzaRepository menuPizza_repo;
+        SizeCrustRepository sizeCrust_repo;
 };
 
 #endif // SALESPERSONUI_H

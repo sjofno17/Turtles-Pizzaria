@@ -9,7 +9,7 @@ class toppingsService
 {
 public:
     toppingsService();
-    void addToppingInfo(const vector<ToppingsModel>& toppingsVec);
+    void addToppingInfo(ToppingsModel& topping_info, vector<ToppingsModel>& toppingVec);
     void getToppingsInfo(const vector<ToppingsModel>& toppingsVec);
 
 private:

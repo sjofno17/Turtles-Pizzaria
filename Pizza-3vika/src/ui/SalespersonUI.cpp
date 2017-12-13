@@ -8,12 +8,11 @@ void SalespersonUI::salesperson_menu()
 {
     while(true)
     {
-        cout << endl;
         cout << "Salesperson" << endl;
         cout << "***********" << endl;
         cout << "-------------------------------------------" << endl;
-        cout << "1. Pizza from menu.                        " << endl;
-        cout << "2. Make pizza.                             " << endl;
+        cout << "1. Order pizza from menu.                  " << endl;
+        cout << "2. Order pizza with chosen toppings.       " << endl;
         cout << "3. Back to main menu.                      " << endl;
         cout << "-------------------------------------------" << endl;
 
@@ -34,10 +33,10 @@ void SalespersonUI::validate_input(char input)
         int menuPizzaSelection = -1;
         while (menuPizzaSelection != 0)
         {
-            cout << "Enter a number for pizza on menu to choose. (0 if you are finished)" << endl;
+            cout << "Enter a number for pizza on the menu to choose. (0 if you are finished)" << endl;
             for (unsigned int i = 0; i < menuPizzaVec.size(); i++)
             {
-                cout << i+1 << ". " << menuPizzaVec[i] << endl;
+                cout << i+1 << ". " << menuPizzaVec[i];
             }
             cin >> menuPizzaSelection;
 

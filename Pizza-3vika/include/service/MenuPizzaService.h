@@ -10,7 +10,7 @@ class MenuPizzaService
 {
     public:
         MenuPizzaService();
-        void add_menupizza(const vector<MenuPizzaModel>& menuPizzaVec);
+        void add_menupizza(MenuPizzaModel& menupizza_info, vector<MenuPizzaModel>& menuPizzaVec);
 
     private:
         MenuPizzaRepository menupizza_info_repo;

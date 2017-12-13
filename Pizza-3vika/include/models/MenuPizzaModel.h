@@ -25,7 +25,6 @@ private:
     string name;
     string pizza_size;
     int price;
-    vector<MenuPizzaModel> menuPizzaVec;
 };
 
 #endif // MENUPIZZAMODEL_H

@@ -9,7 +9,6 @@ void AdministratorUI::administrator_menu()
 {
     while(true)
     {
-        cout << endl;
         cout << "Administrator Menu                                        " << endl;
         cout << "******************                                        " << endl;
         cout << "Choose one of the following: (1, 2, 3 or 4)               " << endl;
@@ -50,7 +49,7 @@ void AdministratorUI::validate_input(char input)
             cout << "You have successfully registered " << name << ", " << price << endl;
             toppingVec.push_back(topping_info);
 
-            topping_service.addToppingInfo(toppingVec);
+            topping_service.addToppingInfo(topping_info, toppingVec);
         }
         catch(InvalidToppingException e)
         {
@@ -114,7 +113,7 @@ void AdministratorUI::validate_input(char input)
             cout << "You have successfully registered: " << name << ", " << pizza_size << ", " << price << endl;
             menuPizzaVec.push_back(menupizza_info);
 
-            menupizza_service.add_menupizza(menuPizzaVec);
+            menupizza_service.add_menupizza(menupizza_info, menuPizzaVec);
         }
         catch(InvalidMenuPizzaException e)
         {
