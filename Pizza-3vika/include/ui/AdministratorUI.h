@@ -33,26 +33,18 @@ class AdministratorUI
     private:
         void validate_input(char input);
 
-        ToppingsRepository topping_repo;
-        SizeCrustRepository sizeCrust_repo;
-        MenuPizzaRepository menuPizza_repo;
-        DrinksRepository drinks_repo;
-        LocationRepository location_repo;
-
-        /*ToppingsModel create_toppings();
         toppingsService topping_service;
-
-        SizeCrustModels create_size_crust();
         SizeCrustService sizecrust_service;
-
-        MenuPizzaModel create_menupizza();
         MenuPizzaService menupizza_service;
-
-        DrinksModel create_drinks();
         DrinksService drinks_service;
-
+        LocationService location_service;
+        /*
+        ToppingsModel create_toppings();
+        SizeCrustModels create_size_crust();
+        MenuPizzaModel create_menupizza();
+        DrinksModel create_drinks();
         LocationModel create_location();
-        LocationService location_service;*/
+        */
 
 };
 

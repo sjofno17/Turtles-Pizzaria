@@ -919,7 +919,7 @@
 	"EmployeeUI.h"
 	<stdlib.h>
 
-1513120539 c:\users\sjöfn\desktop\pizza-3vika\include\ui\administratorui.h
+1513175646 c:\users\sjöfn\desktop\pizza-3vika\include\ui\administratorui.h
 	<stdlib.h>
 	<iostream>
 	"MainMenuUI.h"
@@ -1072,7 +1072,7 @@
 1513119255 source:c:\users\sjöfn\desktop\pizza-3vika\src\models\sizecrustmodels.cpp
 	"SizeCrustModels.h"
 
-1513114383 source:c:\users\sjöfn\desktop\pizza-3vika\src\models\toppingsmodel.cpp
+1513173258 source:c:\users\sjöfn\desktop\pizza-3vika\src\models\toppingsmodel.cpp
 	"ToppingsModel.h"
 
 1513118780 source:c:\users\sjöfn\desktop\pizza-3vika\src\repository\locationrepository.cpp
@@ -1113,13 +1113,13 @@
 1513002729 source:c:\users\sjöfn\desktop\pizza-3vika\src\ui\mainmenuui.cpp
 	"MainMenuUI.h"
 
-1513120365 source:c:\users\sjöfn\desktop\pizza-3vika\src\ui\salespersonui.cpp
+1513174911 source:c:\users\sjöfn\desktop\pizza-3vika\src\ui\salespersonui.cpp
 	"SalespersonUI.h"
 
 1513117742 source:c:\users\sjöfn\desktop\pizza-3vika\src\repository\drinksrepository.cpp
 	"DrinksRepository.h"
 
-1513119611 source:c:\users\sjöfn\desktop\pizza-3vika\src\ui\administratorui.cpp
+1513175592 source:c:\users\sjöfn\desktop\pizza-3vika\src\ui\administratorui.cpp
 	"AdministratorUI.h"
 	<stdlib.h>
 

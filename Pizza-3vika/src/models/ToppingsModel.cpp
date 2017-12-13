@@ -34,6 +34,7 @@ void ToppingsModel::write(ofstream& fout) const
 
     fout.write((char*)(&price), sizeof(double));
 }
+
 void ToppingsModel::read(ifstream& fin)
 {
     int stringlenght;

@@ -14,8 +14,7 @@ void SalespersonUI::salesperson_menu()
         cout << "-------------------------------------------" << endl;
         cout << "1. Pizza from menu.                        " << endl;
         cout << "2. Make pizza.                             " << endl;
-        cout << "3. Read orders.                            " << endl;
-        cout << "5. Back to main menu.                      " << endl;
+        cout << "3. Back to main menu.                      " << endl;
         cout << "-------------------------------------------" << endl;
 
         char input;
@@ -57,13 +56,7 @@ void SalespersonUI::validate_input(char input)
         cout << endl;
     }
 
-    ///viewing orders
     else if(input == '3')
-    {
-
-    }
-
-    else if(input == '4')
     {
         system("CLS");
         MainMenuUI ui;

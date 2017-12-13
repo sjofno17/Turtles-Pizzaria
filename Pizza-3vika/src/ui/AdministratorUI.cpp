@@ -47,10 +47,10 @@ void AdministratorUI::validate_input(char input)
             cin >> price;
 
             ToppingsModel toppings_info(name, price);
-            cout << "You have successfully registered: " << name << ", " << price << endl;
+            cout << "You have successfully registered " << name << ", " << price << endl;
             toppingVec.push_back(toppings_info);
 
-            topping_repo.storeAllToppings(toppingVec);
+            topping_service.add_topping_info(toppings_info);
         }
         catch(InvalidToppingException e)
         {
@@ -82,7 +82,7 @@ void AdministratorUI::validate_input(char input)
             cout << "You have successfully registered: " << name << ", " << price << endl;
             sizeCrustVec.push_back(sizecrust_info);
 
-            sizeCrust_repo.storeAllSizeCrust(sizeCrustVec);
+            sizecrust_service.add_size_crust(sizecrust_info);
         }
 
         catch(InvalidSizeCrustException e)
@@ -114,7 +114,7 @@ void AdministratorUI::validate_input(char input)
             cout << "You have successfully registered: " << name << ", " << pizza_size << ", " << price << endl;
             menuPizzaVec.push_back(menupizza_info);
 
-            menuPizza_repo.storeAllMenuPizza(menuPizzaVec);
+            menupizza_service.add_menupizza(menupizza_info);
         }
         catch(InvalidMenuPizzaException e)
         {
@@ -142,7 +142,7 @@ void AdministratorUI::validate_input(char input)
             cout << "You have successfully registered: " << name << ", " << price << endl;
             drinksVec.push_back(drinks_info);
 
-            drinks_repo.storeAllDrinks(drinksVec);
+            drinks_service.add_drinks(drinks_info);
         }
         catch(InvalidDrinksException e)
         {
@@ -167,7 +167,7 @@ void AdministratorUI::validate_input(char input)
             cout << "You have successfully registered: " << name << endl;
             locationVec.push_back(location_info);
 
-            location_repo.storeAllLocations(locationVec);
+            location_service.add_location(location_info);
         }
         catch(InvalidLocationException e)
         {
@@ -191,87 +191,25 @@ void AdministratorUI::validate_input(char input)
 
 /*ToppingsModel AdministratorUI::create_toppings()
 {
-    system("cls");
-    string name;
-    int price;
 
-    cout << "Enter name for topping: ";
-    cin >> name;
-    cout << "Enter a price for " << name << ": ";
-    cin >> price;
-
-    ToppingsModel toppings_info(name, price);
-    cout << "You have successfully registered: ";
-    return toppings_info;
 }
 
 SizeCrustModels AdministratorUI::create_size_crust()
 {
-    system("cls");
-    string name;
-    string pizza_size;
-    int price;
 
-    cout << "Enter name for pizza crust: ";
-    cin >> name;
-    cout << "Enter small, medium or large " << name << "? ";
-    cin >> pizza_size;
-    cout << "Enter a price for " << pizza_size << " " << name << ": ";
-    cin >> price;
-    cout << endl;
-
-    SizeCrustModels sizecrust_info(name, pizza_size, price);
-    cout << "You have successfully registered: ";
-    return sizecrust_info;
 }
 
 MenuPizzaModel AdministratorUI::create_menupizza()
 {
-    system("cls");
-    string name;
-    string pizza_size;
-    int price;
 
-    cout << "Enter name for menu pizza: ";
-    cin >> name;
-    cout << "Enter small, medium or large " << name << "? ";
-    cin >> pizza_size;
-    cout << "Enter a price for " << pizza_size << " " << name << ": ";
-    cin >> price;
-    cout << endl;
-
-    MenuPizzaModel menupizza_info(name, pizza_size, price);
-    cout << "You have successfully registered: ";
-    return menupizza_info;
 }
 
 DrinksModel AdministratorUI::create_drinks()
 {
-    system("cls");
-    string name;
-    int price;
 
-    cout << "Enter name for drink: ";
-    cin >> name;
-    cout << "Enter a price for " << name << ": ";
-    cin >> price;
-    cout << endl;
-
-    DrinksModel drinks_info(name, price);
-    cout << "You have successfully registered: ";
-    return drinks_info;
 }
 LocationModel AdministratorUI::create_location()
 {
-    system("cls");
-    string name;
 
-    cout << "Enter a name for location: ";
-    cin >> name;
-    cout << endl;
-
-    LocationModel location_info(name);
-    cout << "You have successfully registered: ";
-    return location_info;
 }
 */
