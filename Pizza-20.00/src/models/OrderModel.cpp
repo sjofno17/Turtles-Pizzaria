@@ -61,9 +61,12 @@ istream& operator >>(istream& in, OrderModel& order)
 ostream& operator <<(ostream& out, const OrderModel& order)
 {
     out << "Crust and size of pizza: " << endl;
-    out << order.sizeCrustVec.size() << endl;
-    out << "Pizza with toppings: " << endl;
+    for(unsigned int i = 0; i < order.sizeCrustVec.size(); i++)
+    {
+        out << order.sizeCrustVec[i] << endl;
+    }
 
+    out << "Pizza with toppings: " << endl;
     for(unsigned int i = 0; i < order.toppingsVec.size(); i++)
     {
         out << order.toppingsVec[i] << endl;
