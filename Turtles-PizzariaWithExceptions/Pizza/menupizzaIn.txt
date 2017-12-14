@@ -1,0 +1,9 @@
+hawaii,small,1800
+hawaii,medium,2200
+hawaii,large,2600
+turtles,small,1800
+turtles,medium,2200
+turtles,large,2600
+princess,small,1800
+princess,medium,2200
+princess,large,2600

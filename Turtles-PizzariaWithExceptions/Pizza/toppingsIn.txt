@@ -1,0 +1,6 @@
+Bacon,200
+Cheese,180
+Ham,200
+Pepper,170
+Mushroom, 150
+Gunni,1000000

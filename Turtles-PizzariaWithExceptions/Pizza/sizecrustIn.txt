@@ -1,0 +1,10 @@
+classic,small,1200
+classic,medium,1400
+classic,large, 1600
+italian,small,1200
+italian,medium,1400
+italian,large, 1600
+thin,small,1200
+thin,medium,1400
+thin,large, 1600
+dfgjn,small,34

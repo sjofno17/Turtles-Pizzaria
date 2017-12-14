@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1511793597 source:c:\users\sjöfn\documents\verklegt námskeið 1\verkefni 1\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+
+1511883381 source:c:\users\sjöfn\documents\verklegt námskeið 1\verkefni 1 a1\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+
