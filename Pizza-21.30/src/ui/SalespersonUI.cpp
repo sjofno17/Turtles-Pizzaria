@@ -13,8 +13,7 @@ void SalespersonUI::salesperson_menu()
         cout << "***********" << endl;
         cout << "-------------------------------------------" << endl;
         cout << "1. Order pizza from menu.                  " << endl;
-        cout << "2. Order pizza with chosen toppings.       " << endl;
-        cout << "3. Back to main menu.                      " << endl;
+        cout << "2. Back to main menu.                      " << endl;
         cout << "-------------------------------------------" << endl;
 
         cin >> input;
@@ -24,20 +23,13 @@ void SalespersonUI::salesperson_menu()
 
 void SalespersonUI::validate_input(char input)
 {
-    ///Pizza from menu and then asked about soda, delivery and shown full price.
+    ///Pizza from menu to order
     if(input == '1')
     {
        menupizza_order();
     }
 
-    ///make pizza and then asked about soda, delivery and shown full price.
     else if(input == '2')
-    {
-        sizeCrust_order();
-        toppings_order();
-    }
-
-    else if(input == '3')
     {
         system("CLS");
         return;
@@ -77,7 +69,7 @@ void SalespersonUI::menupizza_order()
         cout << endl;
 }
 
-void SalespersonUI::sizeCrust_order()
+/*void SalespersonUI::sizeCrust_order()
 {
     system("CLS");
         vector<SizeCrustModels> sizeCrustVec = sizeCrust_repo.retrieveAllSizeCrust();
@@ -133,3 +125,4 @@ void SalespersonUI::toppings_order()
 
         cout << endl;
 }
+*/

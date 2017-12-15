@@ -1826,3 +1826,495 @@
 1513277077 source:c:\users\sjöfn\desktop\3vikna\turtles-pizzaria\pizza-fimmgun\src\ui\salespersonui.cpp
 	"SalespersonUI.h"
 
+1513276120 source:c:\users\sjöfn\desktop\pizza-fimmgun\main.cpp
+	<iostream>
+	"MainMenuUI.h"
+
+1513281616 c:\users\sjöfn\desktop\pizza-fimmgun\include\ui\mainmenuui.h
+	"AdministratorUI.h"
+	"SalespersonUI.h"
+	"BakerUI.h"
+	"EmployeeUI.h"
+	<stdlib.h>
+
+1513276120 c:\users\sjöfn\desktop\pizza-fimmgun\include\ui\administratorui.h
+	<stdlib.h>
+	<iostream>
+	"ToppingsService.h"
+	"SizeCrustService.h"
+	"MenuPizzaService.h"
+	"DrinksService.h"
+	"LocationService.h"
+
+1513276120 c:\users\sjöfn\desktop\pizza-fimmgun\include\service\toppingsservice.h
+	"ToppingsRepository.h"
+	"InvalidToppingException.h"
+
+1513276120 c:\users\sjöfn\desktop\pizza-fimmgun\include\repository\toppingsrepository.h
+	<vector>
+	<fstream>
+	"ToppingsModel.h"
+
+1513276120 c:\users\sjöfn\desktop\pizza-fimmgun\include\models\toppingsmodel.h
+	<string>
+	<iostream>
+	<fstream>
+	<vector>
+
+1513276120 c:\users\sjöfn\desktop\pizza-fimmgun\include\exceptions\invalidtoppingexception.h
+	<string>
+
+1513276120 c:\users\sjöfn\desktop\pizza-fimmgun\include\service\sizecrustservice.h
+	"SizeCrustRepository.h"
+	"InvalidSizeCrustException.h"
+
+1513276120 c:\users\sjöfn\desktop\pizza-fimmgun\include\repository\sizecrustrepository.h
+	<vector>
+	"SizeCrustModels.h"
+	<fstream>
+
+1513276120 c:\users\sjöfn\desktop\pizza-fimmgun\include\models\sizecrustmodels.h
+	<string>
+	<iostream>
+	<vector>
+	<fstream>
+	<string>
+
+1513276120 c:\users\sjöfn\desktop\pizza-fimmgun\include\exceptions\invalidsizecrustexception.h
+	<string>
+
+1513276120 c:\users\sjöfn\desktop\pizza-fimmgun\include\service\menupizzaservice.h
+	"MenuPizzaRepository.h"
+	"InvalidMenuPizzaException.h"
+
+1513276120 c:\users\sjöfn\desktop\pizza-fimmgun\include\repository\menupizzarepository.h
+	"MenuPizzaModel.h"
+	<fstream>
+
+1513276120 c:\users\sjöfn\desktop\pizza-fimmgun\include\models\menupizzamodel.h
+	<string>
+	<iostream>
+	<vector>
+	<fstream>
+
+1513276120 c:\users\sjöfn\desktop\pizza-fimmgun\include\exceptions\invalidmenupizzaexception.h
+	<string>
+
+1513276120 c:\users\sjöfn\desktop\pizza-fimmgun\include\service\drinksservice.h
+	"DrinksRepository.h"
+	"InvalidDrinksException.h"
+
+1513276120 c:\users\sjöfn\desktop\pizza-fimmgun\include\repository\drinksrepository.h
+	<vector>
+	<fstream>
+	"DrinksModel.h"
+
+1513276120 c:\users\sjöfn\desktop\pizza-fimmgun\include\models\drinksmodel.h
+	<vector>
+	<string>
+	<iostream>
+	<fstream>
+
+1513276120 c:\users\sjöfn\desktop\pizza-fimmgun\include\exceptions\invaliddrinksexception.h
+	<string>
+
+1513276120 c:\users\sjöfn\desktop\pizza-fimmgun\include\service\locationservice.h
+	"LocationRepository.h"
+	"InvalidLocationException.h"
+
+1513276120 c:\users\sjöfn\desktop\pizza-fimmgun\include\repository\locationrepository.h
+	<vector>
+	"LocationModel.h"
+	<fstream>
+
+1513276120 c:\users\sjöfn\desktop\pizza-fimmgun\include\models\locationmodel.h
+	<vector>
+	<string>
+	<iostream>
+	<fstream>
+
+1513276120 c:\users\sjöfn\desktop\pizza-fimmgun\include\exceptions\invalidlocationexception.h
+	<string>
+
+1513281787 c:\users\sjöfn\desktop\pizza-fimmgun\include\ui\salespersonui.h
+	<stdlib.h>
+	<iostream>
+	<vector>
+	"ToppingsRepository.h"
+	"MenuPizzaRepository.h"
+	"SizeCrustRepository.h"
+	"OrderService.h"
+
+1513281429 c:\users\sjöfn\desktop\pizza-fimmgun\include\repository\orderrepository.h
+	"OrderModel.h"
+
+1513281337 c:\users\sjöfn\desktop\pizza-fimmgun\include\models\ordermodel.h
+	<iostream>
+	<vector>
+	"ToppingsModel.h"
+	"SizeCrustModels.h"
+	"MenuPizzaModel.h"
+	"OrderModel.h"
+
+1513282120 c:\users\sjöfn\desktop\pizza-fimmgun\include\ui\bakerui.h
+	<iostream>
+	"OrderRepository.h"
+
+1513276120 c:\users\sjöfn\desktop\pizza-fimmgun\include\ui\employeeui.h
+	<iostream>
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-fimmgun\src\exceptions\invaliddrinksexception.cpp
+	"InvalidDrinksException.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-fimmgun\src\exceptions\invalidlocationexception.cpp
+	"InvalidLocationException.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-fimmgun\src\exceptions\invalidmenupizzaexception.cpp
+	"InvalidMenuPizzaException.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-fimmgun\src\exceptions\invalidsizecrustexception.cpp
+	"InvalidSizeCrustException.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-fimmgun\src\exceptions\invalidtoppingexception.cpp
+	"InvalidToppingException.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-fimmgun\src\models\drinksmodel.cpp
+	"DrinksModel.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-fimmgun\src\models\locationmodel.cpp
+	"LocationModel.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-fimmgun\src\models\menupizzamodel.cpp
+	"MenuPizzaModel.h"
+
+1513277666 source:c:\users\sjöfn\desktop\pizza-fimmgun\src\models\ordermodel.cpp
+	"OrderModel.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-fimmgun\src\models\sizecrustmodels.cpp
+	"SizeCrustModels.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-fimmgun\src\models\toppingsmodel.cpp
+	"ToppingsModel.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-fimmgun\src\repository\drinksrepository.cpp
+	"DrinksRepository.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-fimmgun\src\repository\locationrepository.cpp
+	"LocationRepository.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-fimmgun\src\repository\menupizzarepository.cpp
+	"MenuPizzaRepository.h"
+
+1513278890 source:c:\users\sjöfn\desktop\pizza-fimmgun\src\repository\orderrepository.cpp
+	"OrderRepository.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-fimmgun\src\repository\sizecrustrepository.cpp
+	"SizeCrustRepository.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-fimmgun\src\repository\toppingsrepository.cpp
+	"ToppingsRepository.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-fimmgun\src\service\drinksservice.cpp
+	"DrinksService.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-fimmgun\src\service\locationservice.cpp
+	"LocationService.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-fimmgun\src\service\menupizzaservice.cpp
+	"MenuPizzaService.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-fimmgun\src\service\orderservice.cpp
+	"OrderService.h"
+
+1513281373 c:\users\sjöfn\desktop\pizza-fimmgun\include\service\orderservice.h
+	<vector>
+	"OrderModel.h"
+	"OrderRepository.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-fimmgun\src\service\sizecrustservice.cpp
+	"SizeCrustService.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-fimmgun\src\service\toppingsservice.cpp
+	"ToppingsService.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-fimmgun\src\ui\administratorui.cpp
+	"AdministratorUI.h"
+	<stdlib.h>
+
+1513278889 source:c:\users\sjöfn\desktop\pizza-fimmgun\src\ui\bakerui.cpp
+	"BakerUI.h"
+	<stdlib.h>
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-fimmgun\src\ui\employeeui.cpp
+	"EmployeeUI.h"
+	<stdlib.h>
+
+1513281616 source:c:\users\sjöfn\desktop\pizza-fimmgun\src\ui\mainmenuui.cpp
+	"MainMenuUI.h"
+
+1513277699 source:c:\users\sjöfn\desktop\pizza-fimmgun\src\ui\salespersonui.cpp
+	"SalespersonUI.h"
+
+1513281048 source:c:\users\sjöfn\desktop\pizza-fimmgun\src\models\bakermodel.cpp
+	"BakerModel.h"
+
+1513280578 c:\users\sjöfn\desktop\pizza-fimmgun\include\models\bakermodel.h
+	<iostream>
+	<fstream>
+	"BakerRepository.h"
+
+1513281041 c:\users\sjöfn\desktop\pizza-fimmgun\include\repository\bakerrepository.h
+	<vector>
+	<fstream>
+	"BakerModel.h"
+
+1513281058 source:c:\users\sjöfn\desktop\pizza-fimmgun\src\repository\bakerrepository.cpp
+	"BakerRepository.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-20.00\main.cpp
+	<iostream>
+	"MainMenuUI.h"
+
+1513281616 c:\users\sjöfn\desktop\pizza-20.00\include\ui\mainmenuui.h
+	"AdministratorUI.h"
+	"SalespersonUI.h"
+	"BakerUI.h"
+	"EmployeeUI.h"
+	<stdlib.h>
+
+1513276120 c:\users\sjöfn\desktop\pizza-20.00\include\ui\administratorui.h
+	<stdlib.h>
+	<iostream>
+	"ToppingsService.h"
+	"SizeCrustService.h"
+	"MenuPizzaService.h"
+	"DrinksService.h"
+	"LocationService.h"
+
+1513276120 c:\users\sjöfn\desktop\pizza-20.00\include\service\toppingsservice.h
+	"ToppingsRepository.h"
+	"InvalidToppingException.h"
+
+1513276120 c:\users\sjöfn\desktop\pizza-20.00\include\repository\toppingsrepository.h
+	<vector>
+	<fstream>
+	"ToppingsModel.h"
+
+1513276120 c:\users\sjöfn\desktop\pizza-20.00\include\models\toppingsmodel.h
+	<string>
+	<iostream>
+	<fstream>
+	<vector>
+
+1513276120 c:\users\sjöfn\desktop\pizza-20.00\include\exceptions\invalidtoppingexception.h
+	<string>
+
+1513276120 c:\users\sjöfn\desktop\pizza-20.00\include\service\sizecrustservice.h
+	"SizeCrustRepository.h"
+	"InvalidSizeCrustException.h"
+
+1513276120 c:\users\sjöfn\desktop\pizza-20.00\include\repository\sizecrustrepository.h
+	<vector>
+	"SizeCrustModels.h"
+	<fstream>
+
+1513276120 c:\users\sjöfn\desktop\pizza-20.00\include\models\sizecrustmodels.h
+	<string>
+	<iostream>
+	<vector>
+	<fstream>
+	<string>
+
+1513276120 c:\users\sjöfn\desktop\pizza-20.00\include\exceptions\invalidsizecrustexception.h
+	<string>
+
+1513276120 c:\users\sjöfn\desktop\pizza-20.00\include\service\menupizzaservice.h
+	"MenuPizzaRepository.h"
+	"InvalidMenuPizzaException.h"
+
+1513276120 c:\users\sjöfn\desktop\pizza-20.00\include\repository\menupizzarepository.h
+	"MenuPizzaModel.h"
+	<fstream>
+
+1513276120 c:\users\sjöfn\desktop\pizza-20.00\include\models\menupizzamodel.h
+	<string>
+	<iostream>
+	<vector>
+	<fstream>
+
+1513276120 c:\users\sjöfn\desktop\pizza-20.00\include\exceptions\invalidmenupizzaexception.h
+	<string>
+
+1513276120 c:\users\sjöfn\desktop\pizza-20.00\include\service\drinksservice.h
+	"DrinksRepository.h"
+	"InvalidDrinksException.h"
+
+1513276120 c:\users\sjöfn\desktop\pizza-20.00\include\repository\drinksrepository.h
+	<vector>
+	<fstream>
+	"DrinksModel.h"
+
+1513276120 c:\users\sjöfn\desktop\pizza-20.00\include\models\drinksmodel.h
+	<vector>
+	<string>
+	<iostream>
+	<fstream>
+
+1513276120 c:\users\sjöfn\desktop\pizza-20.00\include\exceptions\invaliddrinksexception.h
+	<string>
+
+1513276120 c:\users\sjöfn\desktop\pizza-20.00\include\service\locationservice.h
+	"LocationRepository.h"
+	"InvalidLocationException.h"
+
+1513276120 c:\users\sjöfn\desktop\pizza-20.00\include\repository\locationrepository.h
+	<vector>
+	"LocationModel.h"
+	<fstream>
+
+1513276120 c:\users\sjöfn\desktop\pizza-20.00\include\models\locationmodel.h
+	<vector>
+	<string>
+	<iostream>
+	<fstream>
+
+1513276120 c:\users\sjöfn\desktop\pizza-20.00\include\exceptions\invalidlocationexception.h
+	<string>
+
+1513285211 c:\users\sjöfn\desktop\pizza-20.00\include\ui\salespersonui.h
+	<stdlib.h>
+	<iostream>
+	<vector>
+	"ToppingsRepository.h"
+	"MenuPizzaRepository.h"
+	"SizeCrustRepository.h"
+	"OrderService.h"
+
+1513285211 c:\users\sjöfn\desktop\pizza-20.00\include\service\orderservice.h
+	<vector>
+	"OrderModel.h"
+	"OrderRepository.h"
+
+1513285211 c:\users\sjöfn\desktop\pizza-20.00\include\models\ordermodel.h
+	<iostream>
+	<vector>
+	"ToppingsModel.h"
+	"SizeCrustModels.h"
+	"MenuPizzaModel.h"
+	"OrderModel.h"
+
+1513281429 c:\users\sjöfn\desktop\pizza-20.00\include\repository\orderrepository.h
+	"OrderModel.h"
+
+1513285535 c:\users\sjöfn\desktop\pizza-20.00\include\ui\bakerui.h
+	<vector>
+	<iostream>
+	"BakerModel.h"
+	"OrderRepository.h"
+
+1513276120 c:\users\sjöfn\desktop\pizza-20.00\include\ui\employeeui.h
+	<iostream>
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-20.00\src\exceptions\invaliddrinksexception.cpp
+	"InvalidDrinksException.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-20.00\src\exceptions\invalidlocationexception.cpp
+	"InvalidLocationException.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-20.00\src\exceptions\invalidmenupizzaexception.cpp
+	"InvalidMenuPizzaException.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-20.00\src\exceptions\invalidsizecrustexception.cpp
+	"InvalidSizeCrustException.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-20.00\src\exceptions\invalidtoppingexception.cpp
+	"InvalidToppingException.h"
+
+1513285229 source:c:\users\sjöfn\desktop\pizza-20.00\src\models\bakermodel.cpp
+	"BakerModel.h"
+
+1513280578 c:\users\sjöfn\desktop\pizza-20.00\include\models\bakermodel.h
+	<iostream>
+	<fstream>
+	"BakerRepository.h"
+
+1513281041 c:\users\sjöfn\desktop\pizza-20.00\include\repository\bakerrepository.h
+	<vector>
+	<fstream>
+	"BakerModel.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-20.00\src\models\drinksmodel.cpp
+	"DrinksModel.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-20.00\src\models\locationmodel.cpp
+	"LocationModel.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-20.00\src\models\menupizzamodel.cpp
+	"MenuPizzaModel.h"
+
+1513285465 source:c:\users\sjöfn\desktop\pizza-20.00\src\models\ordermodel.cpp
+	"OrderModel.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-20.00\src\models\sizecrustmodels.cpp
+	"SizeCrustModels.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-20.00\src\models\toppingsmodel.cpp
+	"ToppingsModel.h"
+
+1513281058 source:c:\users\sjöfn\desktop\pizza-20.00\src\repository\bakerrepository.cpp
+	"BakerRepository.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-20.00\src\repository\drinksrepository.cpp
+	"DrinksRepository.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-20.00\src\repository\locationrepository.cpp
+	"LocationRepository.h"
+
+1513286823 source:c:\users\sjöfn\desktop\pizza-20.00\src\repository\menupizzarepository.cpp
+	"MenuPizzaRepository.h"
+
+1513278890 source:c:\users\sjöfn\desktop\pizza-20.00\src\repository\orderrepository.cpp
+	"OrderRepository.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-20.00\src\repository\sizecrustrepository.cpp
+	"SizeCrustRepository.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-20.00\src\repository\toppingsrepository.cpp
+	"ToppingsRepository.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-20.00\src\service\drinksservice.cpp
+	"DrinksService.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-20.00\src\service\locationservice.cpp
+	"LocationService.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-20.00\src\service\menupizzaservice.cpp
+	"MenuPizzaService.h"
+
+1513285211 source:c:\users\sjöfn\desktop\pizza-20.00\src\service\orderservice.cpp
+	"OrderService.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-20.00\src\service\sizecrustservice.cpp
+	"SizeCrustService.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-20.00\src\service\toppingsservice.cpp
+	"ToppingsService.h"
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-20.00\src\ui\administratorui.cpp
+	"AdministratorUI.h"
+	<stdlib.h>
+
+1513285892 source:c:\users\sjöfn\desktop\pizza-20.00\src\ui\bakerui.cpp
+	"BakerUI.h"
+	<stdlib.h>
+
+1513276120 source:c:\users\sjöfn\desktop\pizza-20.00\src\ui\employeeui.cpp
+	"EmployeeUI.h"
+	<stdlib.h>
+
+1513281616 source:c:\users\sjöfn\desktop\pizza-20.00\src\ui\mainmenuui.cpp
+	"MainMenuUI.h"
+
+1513286383 source:c:\users\sjöfn\desktop\pizza-20.00\src\ui\salespersonui.cpp
+	"SalespersonUI.h"
+
