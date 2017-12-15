@@ -55,6 +55,7 @@
 		<Unit filename="include/exceptions/InvalidToppingException.h" />
 		<Unit filename="include/models/BakerModel.h" />
 		<Unit filename="include/models/DrinksModel.h" />
+		<Unit filename="include/models/EmployeeModel.h" />
 		<Unit filename="include/models/LocationModel.h" />
 		<Unit filename="include/models/MenuPizzaModel.h" />
 		<Unit filename="include/models/OrderModel.h" />
@@ -62,6 +63,7 @@
 		<Unit filename="include/models/ToppingsModel.h" />
 		<Unit filename="include/repository/BakerRepository.h" />
 		<Unit filename="include/repository/DrinksRepository.h" />
+		<Unit filename="include/repository/EmployeeRepository.h" />
 		<Unit filename="include/repository/LocationRepository.h" />
 		<Unit filename="include/repository/MenuPizzaRepository.h" />
 		<Unit filename="include/repository/OrderRepository.h" />
@@ -86,6 +88,7 @@
 		<Unit filename="src/exceptions/InvalidToppingException.cpp" />
 		<Unit filename="src/models/BakerModel.cpp" />
 		<Unit filename="src/models/DrinksModel.cpp" />
+		<Unit filename="src/models/EmployeeModel.cpp" />
 		<Unit filename="src/models/LocationModel.cpp" />
 		<Unit filename="src/models/MenuPizzaModel.cpp" />
 		<Unit filename="src/models/OrderModel.cpp" />
@@ -93,6 +96,7 @@
 		<Unit filename="src/models/ToppingsModel.cpp" />
 		<Unit filename="src/repository/BakerRepository.cpp" />
 		<Unit filename="src/repository/DrinksRepository.cpp" />
+		<Unit filename="src/repository/EmployeeRepository.cpp" />
 		<Unit filename="src/repository/LocationRepository.cpp" />
 		<Unit filename="src/repository/MenuPizzaRepository.cpp" />
 		<Unit filename="src/repository/OrderRepository.cpp" />

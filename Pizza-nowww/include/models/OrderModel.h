@@ -11,11 +11,10 @@ class OrderModel
 public:
     OrderModel();
 
-    void addMenuPizza(MenuPizzaModel& menuPizza);
+    void addOrder(MenuPizzaModel& menuPizza);
 
     void write(ofstream& fout) const;
     void read(ifstream& fin);
-    void PrintAll();
 
 
     friend istream& operator >>(istream& in, OrderModel& order);
@@ -23,6 +22,9 @@ public:
 
 private:
     vector<MenuPizzaModel> menuPizzaVec;
+    string name;
+    string pizza_size;
+    int price;
 };
 
 #endif // ORDERMODEL_H

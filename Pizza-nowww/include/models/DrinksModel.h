@@ -23,7 +23,6 @@ public:
 private:
     string name;
     int price;
-    vector<DrinksModel> drinksVec;
 };
 
 #endif // DRINKSMODEL_H

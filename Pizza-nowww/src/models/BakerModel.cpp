@@ -4,7 +4,7 @@ BakerModel::BakerModel()
 {
 }
 
-void BakerModel::addOrder(OrderModel& order)
+void BakerModel::addBaker(OrderModel& order)
 {
     orderVec.push_back(order);
 }
@@ -31,7 +31,7 @@ void BakerModel::read(ifstream& fin)
     for(int i = 0; i < orderCount; i++)
     {
         order.read(fin);
-        addOrder(order);
+        addBaker(order);
     }
 }
 

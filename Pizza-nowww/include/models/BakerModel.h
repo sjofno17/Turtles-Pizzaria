@@ -12,6 +12,7 @@ class BakerModel
 public:
     BakerModel();
     void addOrder(OrderModel& order);
+    void addBaker(OrderModel& order);
 
     void write(ofstream& fout) const;
     void read(ifstream& fin);

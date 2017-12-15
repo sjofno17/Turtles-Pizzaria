@@ -4,12 +4,11 @@ DrinksService::DrinksService()
 {
     //ctor
 }
-void DrinksService::add_drinks(const DrinksModel& drinks)
+void DrinksService::add_drinks(const DrinksModel& drinks, vector<DrinksModel>& drinksVec)
 {
     if(isValidName(drinks) && isValidPrice(drinks))
     {
-        add_drinks(drinks);
-        cout << drinks << endl;
+        drinks_repo.storeAllDrinks(drinksVec);
     }
 }
 bool DrinksService::isValidName(const DrinksModel& drinks)

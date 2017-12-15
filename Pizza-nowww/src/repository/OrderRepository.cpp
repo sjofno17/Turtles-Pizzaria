@@ -28,6 +28,7 @@ vector<OrderModel> OrderRepository::retrievePizza()
 
     if(fin.is_open())
     {
+
         int ordercount;
         while(fin.read((char*)(&ordercount),sizeof(int)))
         {
@@ -35,7 +36,6 @@ vector<OrderModel> OrderRepository::retrievePizza()
             {
                 cout << ordercount;
                 orderedpizzas.read(fin);
-                orderedpizzas.PrintAll();
                 orderVec.push_back(orderedpizzas);
             }
         }
@@ -45,4 +45,3 @@ vector<OrderModel> OrderRepository::retrievePizza()
     //throw FileNotFoundException();
     //setja exception hér muna eftir því!!!
 }
-

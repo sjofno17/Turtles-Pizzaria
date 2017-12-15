@@ -49,9 +49,6 @@ void SalespersonUI::menupizza_order()
     vector<MenuPizzaModel> menuPizzaVec = menuPizza_repo.retrieveAllMenuPizza();
     OrderModel order;
     int menuPizzaSelection = -1;
-    //cout << "Please enter order name: ";
-    //int ordernumber;
-    //cin >> ordernumber;
     while (menuPizzaSelection != 0)
     {
         cout << "Enter a number for pizza on the menu to choose. (0 when you are finished)" << endl;
@@ -66,7 +63,7 @@ void SalespersonUI::menupizza_order()
         cout << endl;
         if (menuPizzaSelection > 0 && menuPizzaSelection <= (int)menuPizzaVec.size())
         {
-            order.addMenuPizza(menuPizzaVec[menuPizzaSelection - 1]);
+            order.addOrder(menuPizzaVec[menuPizzaSelection - 1]);
         }
     }
     order_repo.storePizza(order);

@@ -16,6 +16,7 @@ string LocationModel::get_name() const
 
 void LocationModel::addLocation(LocationModel location)
 {
+    vector<LocationModel> locationVec;
     locationVec.push_back(location);
 }
 

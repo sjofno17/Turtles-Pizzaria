@@ -2,16 +2,15 @@
 
 LocationService::LocationService()
 {
-    //ctor
 }
-void LocationService::add_location(const LocationModel& location)
+void LocationService::add_location(const LocationModel& location, vector<LocationModel>& locationVec)
 {
     if(isValidName(location))
     {
-        add_location(location);
-        cout << location << endl;
+        location_repo.storeAllLocations(locationVec);
     }
 }
+
 bool LocationService::isValidName(const LocationModel& location)
 {
     string name = location.get_name();

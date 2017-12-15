@@ -65,7 +65,7 @@ void BakerUI::retrieve_order()
 
     if (menuPizzaSelection > 0 && menuPizzaSelection <= (int)orderVec.size())
     {
-        order.addOrder(orderVec[menuPizzaSelection - 1]);
+        order.addBaker(orderVec[menuPizzaSelection - 1]);
     }
 
     baker_repo.storeOrder(order);

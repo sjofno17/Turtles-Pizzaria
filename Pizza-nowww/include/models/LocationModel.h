@@ -21,7 +21,6 @@ public:
 
 private:
     string name;
-    vector<LocationModel> locationVec;
 };
 
 #endif // LOCATIONMODEL_H

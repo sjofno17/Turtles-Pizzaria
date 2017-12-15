@@ -4,10 +4,11 @@ OrderModel::OrderModel()
 {
 }
 
-void OrderModel::addMenuPizza(MenuPizzaModel& menuPizza)
+void OrderModel::addOrder(MenuPizzaModel& menuPizza)
 {
     menuPizzaVec.push_back(menuPizza);
 }
+
 
 void OrderModel::write(ofstream& fout) const
 {
@@ -21,25 +22,25 @@ void OrderModel::write(ofstream& fout) const
     }
 }
 
-void OrderModel::PrintAll(){
-    cout << "START OF ORDERMODEL" << endl;
-    for(int i = 0; i < menuPizzaVec.size(); i++){
-        cout << menuPizzaVec[0].get_name() << endl;
-    }
-    cout << "END OF ORDERMODEL:PRINTALL" << endl <<endl;
-}
-
 void OrderModel::read(ifstream& fin)
 {
-    int menuPizzaCount = menuPizzaVec.size();
-    MenuPizzaModel order;
-    fin.read((char*)(&menuPizzaCount), sizeof(int));
+    int stringlenght;
+    fin.read((char*)(&stringlenght), sizeof(int));
+    char *str = new char [stringlenght];
 
-    for(int i = 0; i < menuPizzaCount; i++)
-    {
-        order.read(fin);
-        addMenuPizza(order);
-    }
+    fin.read(str, stringlenght);
+    name = str;
+
+    int stringlenght2;
+    fin.read((char*)(&stringlenght2), sizeof(int));
+    char *str2 = new char [stringlenght2];
+
+    fin.read(str2, stringlenght2);
+    pizza_size = str2;
+
+    fin.read((char*)(&price), sizeof(double));
+    delete[] str;
+    delete[] str2;
 }
 
 istream& operator >>(istream& in, OrderModel& order)
@@ -51,18 +52,13 @@ istream& operator >>(istream& in, OrderModel& order)
     for(unsigned int i = 0; i < order.menuPizzaVec.size(); i++)
     {
         in >> order;
-        order.addMenuPizza(menuPizza);
+        order.addOrder(menuPizza);
     }
     return in;
 }
 
 ostream& operator <<(ostream& out, const OrderModel& order)
 {
-    out << "Ordered pizzas: " << endl;
-    for (unsigned int i = 0; i < order.menuPizzaVec.size(); i++)
-    {
-        out << order.menuPizzaVec[i];
-    }
-
+    out << order.name << "\t" << order.pizza_size << "\t" << order.price << endl;
     return out;
 }

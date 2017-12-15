@@ -2,7 +2,6 @@
 
 MenuPizzaService::MenuPizzaService()
 {
-    //ctor
 }
 void MenuPizzaService::add_menupizza(MenuPizzaModel& menupizza_info, vector<MenuPizzaModel>& menuPizzaVec)
 {

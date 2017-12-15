@@ -22,6 +22,7 @@ int DrinksModel::get_price() const
 
 void DrinksModel::addDrinks(DrinksModel drink)
 {
+    vector<DrinksModel> drinksVec;
     drinksVec.push_back(drink);
 }
 

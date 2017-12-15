@@ -64,7 +64,6 @@ void AdministratorUI::validate_input(char input)
         try
         {
             create_menupizza();
-            ;
         }
         catch(InvalidMenuPizzaException e)
         {
@@ -198,7 +197,7 @@ DrinksModel AdministratorUI::create_drinks()
     cout << "You have successfully registered: " << name << ", " << price << endl << endl;
     drinksVec.push_back(drinks_info);
 
-    drinks_service.add_drinks(drinks_info);
+    drinks_service.add_drinks(drinks_info, drinksVec);
     return drinks_info;
 }
 
@@ -216,6 +215,6 @@ LocationModel AdministratorUI::create_location()
     cout << "You have successfully registered: " << name << endl << endl;
     locationVec.push_back(location_info);
 
-    location_service.add_location(location_info);
+    location_service.add_location(location_info, locationVec);
     return location_info;
 }

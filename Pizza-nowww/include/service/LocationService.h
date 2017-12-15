@@ -9,7 +9,7 @@ class LocationService
 {
 public:
     LocationService();
-    void add_location(const LocationModel& location);
+    void add_location(const LocationModel& location, vector<LocationModel>& locationVec);
 
 private:
     LocationRepository location_repo;

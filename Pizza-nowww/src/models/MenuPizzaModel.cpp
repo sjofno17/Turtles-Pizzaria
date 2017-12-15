@@ -65,16 +65,6 @@ void MenuPizzaModel::read(ifstream& fin)
     delete[] str;
     delete[] str2;
 
-    /*vector<MenuPizzaModel> menuPizzaVec;
-     int menuPizzaCount = menuPizzaVec.size();
-    MenuPizzaModel order;
-    fin.read((char*)(&menuPizzaCount), sizeof(int));
-
-    for(int i = 0; i < menuPizzaCount; i++)
-    {
-        order.read(fin);
-        addMenuPizza(order);
-    }*/
 }
 
 

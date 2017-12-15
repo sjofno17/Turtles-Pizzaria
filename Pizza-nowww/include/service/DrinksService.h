@@ -9,7 +9,7 @@ class DrinksService
 {
 public:
     DrinksService();
-    void add_drinks(const DrinksModel& drinks);
+    void add_drinks(const DrinksModel& drinks, vector<DrinksModel>& drinksVec);
 
 private:
     DrinksRepository drinks_repo;
